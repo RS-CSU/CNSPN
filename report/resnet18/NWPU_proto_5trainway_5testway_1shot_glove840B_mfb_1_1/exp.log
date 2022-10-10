@@ -1,0 +1,1204 @@
+[2022-04-10 23:46:02,153][train.py][line:128][INFO] {'save_epoch': 10, 'shot': 1, 'query': 15, 'train_way': 5, 'test_way': 5, 'dataset': 'NWPU', 'word2vec': 'glove840B', 'fusionstyle': 'mfb', 'lambda1': 1.0, 'lambda2': 1.0, 'gpu': '0'}
+[2022-04-10 23:46:02,153][train.py][line:129][INFO] start training!!!
+[2022-04-10 23:46:18,974][train.py][line:160][INFO] epoch 1, train 32/100, loss=3.0316 acc=0.3600
+[2022-04-10 23:46:28,693][train.py][line:160][INFO] epoch 1, train 65/100, loss=3.2785 acc=0.2400
+[2022-04-10 23:46:31,539][train.py][line:160][INFO] epoch 1, train 98/100, loss=3.2680 acc=0.2933
+[2022-04-10 23:46:45,614][train.py][line:217][INFO] epoch 1, val, loss=3.2596 acc=0.3247
+[2022-04-10 23:46:45,614][train.py][line:221][INFO] epoch 1, val, loss=3.2596,text_loss=1.6174，vis_loss=1.3981， acc=0.3247
+[2022-04-10 23:46:45,713][train.py][line:239][INFO] ETA:43s/2.4h
+[2022-04-10 23:47:01,114][train.py][line:160][INFO] epoch 2, train 32/100, loss=3.6198 acc=0.2533
+[2022-04-10 23:47:04,914][train.py][line:160][INFO] epoch 2, train 65/100, loss=2.7114 acc=0.4800
+[2022-04-10 23:47:07,957][train.py][line:160][INFO] epoch 2, train 98/100, loss=2.3223 acc=0.5600
+[2022-04-10 23:47:14,870][train.py][line:217][INFO] epoch 2, val, loss=3.2684 acc=0.3421
+[2022-04-10 23:47:14,871][train.py][line:221][INFO] epoch 2, val, loss=3.2684,text_loss=1.6304，vis_loss=1.5942， acc=0.3421
+[2022-04-10 23:47:15,335][train.py][line:239][INFO] ETA:1m/2.0h
+[2022-04-10 23:47:24,986][train.py][line:160][INFO] epoch 3, train 32/100, loss=1.8180 acc=0.7333
+[2022-04-10 23:47:27,416][train.py][line:160][INFO] epoch 3, train 65/100, loss=2.7335 acc=0.5467
+[2022-04-10 23:47:30,199][train.py][line:160][INFO] epoch 3, train 98/100, loss=2.6659 acc=0.4933
+[2022-04-10 23:47:35,601][train.py][line:217][INFO] epoch 3, val, loss=3.6432 acc=0.3295
+[2022-04-10 23:47:35,601][train.py][line:221][INFO] epoch 3, val, loss=3.6432,text_loss=1.5715，vis_loss=1.7526， acc=0.3295
+[2022-04-10 23:47:35,687][train.py][line:239][INFO] ETA:2m/1.7h
+[2022-04-10 23:47:41,939][train.py][line:160][INFO] epoch 4, train 32/100, loss=2.7782 acc=0.4667
+[2022-04-10 23:47:44,362][train.py][line:160][INFO] epoch 4, train 65/100, loss=3.0617 acc=0.3867
+[2022-04-10 23:47:46,802][train.py][line:160][INFO] epoch 4, train 98/100, loss=1.4918 acc=0.8400
+[2022-04-10 23:47:50,961][train.py][line:217][INFO] epoch 4, val, loss=3.7419 acc=0.3169
+[2022-04-10 23:47:50,961][train.py][line:221][INFO] epoch 4, val, loss=3.7419,text_loss=1.6534，vis_loss=2.1248， acc=0.3169
+[2022-04-10 23:47:51,020][train.py][line:239][INFO] ETA:2m/1.5h
+[2022-04-10 23:47:55,847][train.py][line:160][INFO] epoch 5, train 32/100, loss=2.2415 acc=0.5867
+[2022-04-10 23:47:58,313][train.py][line:160][INFO] epoch 5, train 65/100, loss=2.5201 acc=0.4933
+[2022-04-10 23:48:00,752][train.py][line:160][INFO] epoch 5, train 98/100, loss=2.8607 acc=0.4667
+[2022-04-10 23:48:05,014][train.py][line:217][INFO] epoch 5, val, loss=3.7518 acc=0.2759
+[2022-04-10 23:48:05,014][train.py][line:221][INFO] epoch 5, val, loss=3.7518,text_loss=2.0530，vis_loss=1.7870， acc=0.2759
+[2022-04-10 23:48:05,071][train.py][line:239][INFO] ETA:2m/1.4h
+[2022-04-10 23:48:09,507][train.py][line:160][INFO] epoch 6, train 32/100, loss=2.1393 acc=0.6267
+[2022-04-10 23:48:11,986][train.py][line:160][INFO] epoch 6, train 65/100, loss=2.9449 acc=0.4667
+[2022-04-10 23:48:14,493][train.py][line:160][INFO] epoch 6, train 98/100, loss=2.2720 acc=0.6800
+[2022-04-10 23:48:18,983][train.py][line:217][INFO] epoch 6, val, loss=3.3851 acc=0.2801
+[2022-04-10 23:48:18,984][train.py][line:221][INFO] epoch 6, val, loss=3.3851,text_loss=1.8772，vis_loss=1.4994， acc=0.2801
+[2022-04-10 23:48:19,044][train.py][line:239][INFO] ETA:2m/1.3h
+[2022-04-10 23:48:23,374][train.py][line:160][INFO] epoch 7, train 32/100, loss=1.9357 acc=0.6400
+[2022-04-10 23:48:25,934][train.py][line:160][INFO] epoch 7, train 65/100, loss=2.6693 acc=0.5333
+[2022-04-10 23:48:28,498][train.py][line:160][INFO] epoch 7, train 98/100, loss=2.0662 acc=0.6133
+[2022-04-10 23:48:32,890][train.py][line:217][INFO] epoch 7, val, loss=3.3187 acc=0.3465
+[2022-04-10 23:48:32,891][train.py][line:221][INFO] epoch 7, val, loss=3.3187,text_loss=1.6452，vis_loss=1.6270， acc=0.3465
+[2022-04-10 23:48:33,382][train.py][line:239][INFO] ETA:3m/1.2h
+[2022-04-10 23:48:37,365][train.py][line:160][INFO] epoch 8, train 32/100, loss=2.1792 acc=0.6133
+[2022-04-10 23:48:39,867][train.py][line:160][INFO] epoch 8, train 65/100, loss=2.8194 acc=0.5067
+[2022-04-10 23:48:42,351][train.py][line:160][INFO] epoch 8, train 98/100, loss=2.3422 acc=0.6000
+[2022-04-10 23:48:46,775][train.py][line:217][INFO] epoch 8, val, loss=3.3255 acc=0.3563
+[2022-04-10 23:48:46,775][train.py][line:221][INFO] epoch 8, val, loss=3.3255,text_loss=1.5012，vis_loss=1.4960， acc=0.3563
+[2022-04-10 23:48:47,170][train.py][line:239][INFO] ETA:3m/1.1h
+[2022-04-10 23:48:50,828][train.py][line:160][INFO] epoch 9, train 32/100, loss=2.4722 acc=0.6667
+[2022-04-10 23:48:53,332][train.py][line:160][INFO] epoch 9, train 65/100, loss=2.4242 acc=0.5200
+[2022-04-10 23:48:55,857][train.py][line:160][INFO] epoch 9, train 98/100, loss=2.4303 acc=0.5600
+[2022-04-10 23:49:00,280][train.py][line:217][INFO] epoch 9, val, loss=3.3877 acc=0.3495
+[2022-04-10 23:49:00,280][train.py][line:221][INFO] epoch 9, val, loss=3.3877,text_loss=1.7381，vis_loss=1.3977， acc=0.3495
+[2022-04-10 23:49:00,338][train.py][line:239][INFO] ETA:3m/1.1h
+[2022-04-10 23:49:04,286][train.py][line:160][INFO] epoch 10, train 32/100, loss=1.9366 acc=0.6133
+[2022-04-10 23:49:06,755][train.py][line:160][INFO] epoch 10, train 65/100, loss=3.0067 acc=0.5067
+[2022-04-10 23:49:09,205][train.py][line:160][INFO] epoch 10, train 98/100, loss=1.3594 acc=0.7867
+[2022-04-10 23:49:13,425][train.py][line:217][INFO] epoch 10, val, loss=3.2673 acc=0.3836
+[2022-04-10 23:49:13,425][train.py][line:221][INFO] epoch 10, val, loss=3.2673,text_loss=1.4614，vis_loss=1.4000， acc=0.3836
+[2022-04-10 23:49:13,877][train.py][line:239][INFO] ETA:3m/1.1h
+[2022-04-10 23:49:17,729][train.py][line:160][INFO] epoch 11, train 32/100, loss=1.6214 acc=0.7867
+[2022-04-10 23:49:20,187][train.py][line:160][INFO] epoch 11, train 65/100, loss=2.3152 acc=0.5867
+[2022-04-10 23:49:22,616][train.py][line:160][INFO] epoch 11, train 98/100, loss=2.1596 acc=0.6667
+[2022-04-10 23:49:26,696][train.py][line:217][INFO] epoch 11, val, loss=3.4362 acc=0.3387
+[2022-04-10 23:49:26,696][train.py][line:221][INFO] epoch 11, val, loss=3.4362,text_loss=1.7093，vis_loss=1.7658， acc=0.3387
+[2022-04-10 23:49:26,754][train.py][line:239][INFO] ETA:3m/1.0h
+[2022-04-10 23:49:30,564][train.py][line:160][INFO] epoch 12, train 32/100, loss=2.2903 acc=0.5867
+[2022-04-10 23:49:33,021][train.py][line:160][INFO] epoch 12, train 65/100, loss=2.0148 acc=0.6667
+[2022-04-10 23:49:35,464][train.py][line:160][INFO] epoch 12, train 98/100, loss=2.1581 acc=0.5733
+[2022-04-10 23:49:39,685][train.py][line:217][INFO] epoch 12, val, loss=3.4575 acc=0.3175
+[2022-04-10 23:49:39,685][train.py][line:221][INFO] epoch 12, val, loss=3.4575,text_loss=1.7389，vis_loss=1.4947， acc=0.3175
+[2022-04-10 23:49:39,745][train.py][line:239][INFO] ETA:4m/1.0h
+[2022-04-10 23:49:43,675][train.py][line:160][INFO] epoch 13, train 32/100, loss=1.9356 acc=0.6667
+[2022-04-10 23:49:46,127][train.py][line:160][INFO] epoch 13, train 65/100, loss=2.5693 acc=0.4933
+[2022-04-10 23:49:48,574][train.py][line:160][INFO] epoch 13, train 98/100, loss=1.8587 acc=0.7333
+[2022-04-10 23:49:52,802][train.py][line:217][INFO] epoch 13, val, loss=3.4639 acc=0.3860
+[2022-04-10 23:49:52,802][train.py][line:221][INFO] epoch 13, val, loss=3.4639,text_loss=1.4699，vis_loss=2.3533， acc=0.3860
+[2022-04-10 23:49:53,278][train.py][line:239][INFO] ETA:4m/59m
+[2022-04-10 23:49:57,221][train.py][line:160][INFO] epoch 14, train 32/100, loss=0.9938 acc=0.9067
+[2022-04-10 23:49:59,681][train.py][line:160][INFO] epoch 14, train 65/100, loss=2.7062 acc=0.4800
+[2022-04-10 23:50:02,134][train.py][line:160][INFO] epoch 14, train 98/100, loss=2.2739 acc=0.6133
+[2022-04-10 23:50:06,352][train.py][line:217][INFO] epoch 14, val, loss=3.4227 acc=0.3507
+[2022-04-10 23:50:06,353][train.py][line:221][INFO] epoch 14, val, loss=3.4227,text_loss=2.0732，vis_loss=1.4254， acc=0.3507
+[2022-04-10 23:50:06,411][train.py][line:239][INFO] ETA:4m/58m
+[2022-04-10 23:50:10,172][train.py][line:160][INFO] epoch 15, train 32/100, loss=2.5283 acc=0.4000
+[2022-04-10 23:50:12,614][train.py][line:160][INFO] epoch 15, train 65/100, loss=1.9476 acc=0.6533
+[2022-04-10 23:50:15,052][train.py][line:160][INFO] epoch 15, train 98/100, loss=1.3262 acc=0.8267
+[2022-04-10 23:50:19,235][train.py][line:217][INFO] epoch 15, val, loss=3.8024 acc=0.3335
+[2022-04-10 23:50:19,235][train.py][line:221][INFO] epoch 15, val, loss=3.8024,text_loss=2.6807，vis_loss=1.2416， acc=0.3335
+[2022-04-10 23:50:19,294][train.py][line:239][INFO] ETA:4m/57m
+[2022-04-10 23:50:23,049][train.py][line:160][INFO] epoch 16, train 32/100, loss=1.5302 acc=0.7600
+[2022-04-10 23:50:25,493][train.py][line:160][INFO] epoch 16, train 65/100, loss=1.9288 acc=0.6800
+[2022-04-10 23:50:27,941][train.py][line:160][INFO] epoch 16, train 98/100, loss=1.8550 acc=0.7200
+[2022-04-10 23:50:32,148][train.py][line:217][INFO] epoch 16, val, loss=3.4185 acc=0.3707
+[2022-04-10 23:50:32,149][train.py][line:221][INFO] epoch 16, val, loss=3.4185,text_loss=1.5534，vis_loss=1.3979， acc=0.3707
+[2022-04-10 23:50:32,207][train.py][line:239][INFO] ETA:4m/56m
+[2022-04-10 23:50:36,020][train.py][line:160][INFO] epoch 17, train 32/100, loss=1.9861 acc=0.6400
+[2022-04-10 23:50:38,487][train.py][line:160][INFO] epoch 17, train 65/100, loss=1.8220 acc=0.6667
+[2022-04-10 23:50:40,924][train.py][line:160][INFO] epoch 17, train 98/100, loss=2.2217 acc=0.6533
+[2022-04-10 23:50:45,176][train.py][line:217][INFO] epoch 17, val, loss=3.1196 acc=0.4009
+[2022-04-10 23:50:45,176][train.py][line:221][INFO] epoch 17, val, loss=3.1196,text_loss=1.4726，vis_loss=1.5702， acc=0.4009
+[2022-04-10 23:50:45,573][train.py][line:239][INFO] ETA:5m/56m
+[2022-04-10 23:50:49,402][train.py][line:160][INFO] epoch 18, train 32/100, loss=1.6406 acc=0.7600
+[2022-04-10 23:50:51,867][train.py][line:160][INFO] epoch 18, train 65/100, loss=2.7128 acc=0.5200
+[2022-04-10 23:50:54,299][train.py][line:160][INFO] epoch 18, train 98/100, loss=1.7463 acc=0.7467
+[2022-04-10 23:50:58,516][train.py][line:217][INFO] epoch 18, val, loss=3.2901 acc=0.3625
+[2022-04-10 23:50:58,516][train.py][line:221][INFO] epoch 18, val, loss=3.2901,text_loss=1.5601，vis_loss=1.3801， acc=0.3625
+[2022-04-10 23:50:58,573][train.py][line:239][INFO] ETA:5m/55m
+[2022-04-10 23:51:02,355][train.py][line:160][INFO] epoch 19, train 32/100, loss=1.3707 acc=0.7867
+[2022-04-10 23:51:04,802][train.py][line:160][INFO] epoch 19, train 65/100, loss=1.6959 acc=0.7467
+[2022-04-10 23:51:07,254][train.py][line:160][INFO] epoch 19, train 98/100, loss=1.2538 acc=0.8133
+[2022-04-10 23:51:11,488][train.py][line:217][INFO] epoch 19, val, loss=3.4463 acc=0.3897
+[2022-04-10 23:51:11,488][train.py][line:221][INFO] epoch 19, val, loss=3.4463,text_loss=1.8785，vis_loss=1.0950， acc=0.3897
+[2022-04-10 23:51:11,547][train.py][line:239][INFO] ETA:5m/54m
+[2022-04-10 23:51:15,497][train.py][line:160][INFO] epoch 20, train 32/100, loss=2.5436 acc=0.4800
+[2022-04-10 23:51:17,946][train.py][line:160][INFO] epoch 20, train 65/100, loss=1.9655 acc=0.6667
+[2022-04-10 23:51:20,403][train.py][line:160][INFO] epoch 20, train 98/100, loss=3.0763 acc=0.4800
+[2022-04-10 23:51:24,611][train.py][line:217][INFO] epoch 20, val, loss=3.2990 acc=0.3541
+[2022-04-10 23:51:24,611][train.py][line:221][INFO] epoch 20, val, loss=3.2990,text_loss=1.7206，vis_loss=1.2990， acc=0.3541
+[2022-04-10 23:51:24,670][train.py][line:239][INFO] ETA:5m/54m
+[2022-04-10 23:51:28,565][train.py][line:160][INFO] epoch 21, train 32/100, loss=2.3777 acc=0.6133
+[2022-04-10 23:51:31,017][train.py][line:160][INFO] epoch 21, train 65/100, loss=1.2234 acc=0.7733
+[2022-04-10 23:51:33,467][train.py][line:160][INFO] epoch 21, train 98/100, loss=2.2021 acc=0.6000
+[2022-04-10 23:51:37,809][train.py][line:217][INFO] epoch 21, val, loss=3.3617 acc=0.3867
+[2022-04-10 23:51:37,809][train.py][line:221][INFO] epoch 21, val, loss=3.3617,text_loss=1.9206，vis_loss=1.4471， acc=0.3867
+[2022-04-10 23:51:37,867][train.py][line:239][INFO] ETA:6m/53m
+[2022-04-10 23:51:41,848][train.py][line:160][INFO] epoch 22, train 32/100, loss=1.7236 acc=0.6933
+[2022-04-10 23:51:44,307][train.py][line:160][INFO] epoch 22, train 65/100, loss=3.2648 acc=0.3600
+[2022-04-10 23:51:46,753][train.py][line:160][INFO] epoch 22, train 98/100, loss=2.1628 acc=0.6400
+[2022-04-10 23:51:51,038][train.py][line:217][INFO] epoch 22, val, loss=3.5143 acc=0.3881
+[2022-04-10 23:51:51,039][train.py][line:221][INFO] epoch 22, val, loss=3.5143,text_loss=1.6261，vis_loss=1.6389， acc=0.3881
+[2022-04-10 23:51:51,098][train.py][line:239][INFO] ETA:6m/53m
+[2022-04-10 23:51:55,006][train.py][line:160][INFO] epoch 23, train 32/100, loss=1.7886 acc=0.6533
+[2022-04-10 23:51:57,480][train.py][line:160][INFO] epoch 23, train 65/100, loss=1.7689 acc=0.6933
+[2022-04-10 23:51:59,936][train.py][line:160][INFO] epoch 23, train 98/100, loss=1.7865 acc=0.7733
+[2022-04-10 23:52:04,152][train.py][line:217][INFO] epoch 23, val, loss=3.3433 acc=0.3787
+[2022-04-10 23:52:04,152][train.py][line:221][INFO] epoch 23, val, loss=3.3433,text_loss=1.6798，vis_loss=1.3005， acc=0.3787
+[2022-04-10 23:52:04,210][train.py][line:239][INFO] ETA:6m/52m
+[2022-04-10 23:52:08,138][train.py][line:160][INFO] epoch 24, train 32/100, loss=1.3586 acc=0.7467
+[2022-04-10 23:52:10,599][train.py][line:160][INFO] epoch 24, train 65/100, loss=1.0944 acc=0.8533
+[2022-04-10 23:52:13,047][train.py][line:160][INFO] epoch 24, train 98/100, loss=2.4995 acc=0.6000
+[2022-04-10 23:52:17,332][train.py][line:217][INFO] epoch 24, val, loss=3.4692 acc=0.3735
+[2022-04-10 23:52:17,332][train.py][line:221][INFO] epoch 24, val, loss=3.4692,text_loss=2.0529，vis_loss=1.1341， acc=0.3735
+[2022-04-10 23:52:17,392][train.py][line:239][INFO] ETA:6m/52m
+[2022-04-10 23:52:21,396][train.py][line:160][INFO] epoch 25, train 32/100, loss=2.3752 acc=0.5333
+[2022-04-10 23:52:23,859][train.py][line:160][INFO] epoch 25, train 65/100, loss=2.6846 acc=0.5733
+[2022-04-10 23:52:26,308][train.py][line:160][INFO] epoch 25, train 98/100, loss=1.3857 acc=0.8133
+[2022-04-10 23:52:30,620][train.py][line:217][INFO] epoch 25, val, loss=3.4004 acc=0.4073
+[2022-04-10 23:52:30,620][train.py][line:221][INFO] epoch 25, val, loss=3.4004,text_loss=1.3807，vis_loss=1.4843， acc=0.4073
+[2022-04-10 23:52:31,084][train.py][line:239][INFO] ETA:6m/52m
+[2022-04-10 23:52:34,811][train.py][line:160][INFO] epoch 26, train 32/100, loss=2.0088 acc=0.6800
+[2022-04-10 23:52:37,266][train.py][line:160][INFO] epoch 26, train 65/100, loss=2.2383 acc=0.7467
+[2022-04-10 23:52:39,718][train.py][line:160][INFO] epoch 26, train 98/100, loss=1.6246 acc=0.7333
+[2022-04-10 23:52:44,035][train.py][line:217][INFO] epoch 26, val, loss=3.3558 acc=0.4027
+[2022-04-10 23:52:44,035][train.py][line:221][INFO] epoch 26, val, loss=3.3558,text_loss=1.9328，vis_loss=1.2124， acc=0.4027
+[2022-04-10 23:52:44,093][train.py][line:239][INFO] ETA:7m/52m
+[2022-04-10 23:52:47,933][train.py][line:160][INFO] epoch 27, train 32/100, loss=1.4245 acc=0.7600
+[2022-04-10 23:52:50,393][train.py][line:160][INFO] epoch 27, train 65/100, loss=1.4315 acc=0.7600
+[2022-04-10 23:52:52,845][train.py][line:160][INFO] epoch 27, train 98/100, loss=1.7667 acc=0.7067
+[2022-04-10 23:52:57,123][train.py][line:217][INFO] epoch 27, val, loss=3.3252 acc=0.3668
+[2022-04-10 23:52:57,123][train.py][line:221][INFO] epoch 27, val, loss=3.3252,text_loss=1.6167，vis_loss=1.3204， acc=0.3668
+[2022-04-10 23:52:57,181][train.py][line:239][INFO] ETA:7m/51m
+[2022-04-10 23:53:01,096][train.py][line:160][INFO] epoch 28, train 32/100, loss=1.6190 acc=0.6800
+[2022-04-10 23:53:03,574][train.py][line:160][INFO] epoch 28, train 65/100, loss=2.4547 acc=0.6000
+[2022-04-10 23:53:06,018][train.py][line:160][INFO] epoch 28, train 98/100, loss=1.2591 acc=0.8267
+[2022-04-10 23:53:10,226][train.py][line:217][INFO] epoch 28, val, loss=3.5057 acc=0.3853
+[2022-04-10 23:53:10,226][train.py][line:221][INFO] epoch 28, val, loss=3.5057,text_loss=2.1725，vis_loss=2.3426， acc=0.3853
+[2022-04-10 23:53:10,284][train.py][line:239][INFO] ETA:7m/51m
+[2022-04-10 23:53:14,235][train.py][line:160][INFO] epoch 29, train 32/100, loss=1.4985 acc=0.7600
+[2022-04-10 23:53:16,698][train.py][line:160][INFO] epoch 29, train 65/100, loss=1.9572 acc=0.6533
+[2022-04-10 23:53:19,176][train.py][line:160][INFO] epoch 29, train 98/100, loss=1.1766 acc=0.8933
+[2022-04-10 23:53:23,335][train.py][line:217][INFO] epoch 29, val, loss=3.3141 acc=0.4300
+[2022-04-10 23:53:23,336][train.py][line:221][INFO] epoch 29, val, loss=3.3141,text_loss=1.6334，vis_loss=1.3878， acc=0.4300
+[2022-04-10 23:53:23,842][train.py][line:239][INFO] ETA:7m/51m
+[2022-04-10 23:53:27,779][train.py][line:160][INFO] epoch 30, train 32/100, loss=0.8154 acc=0.8933
+[2022-04-10 23:53:30,245][train.py][line:160][INFO] epoch 30, train 65/100, loss=1.1432 acc=0.8933
+[2022-04-10 23:53:32,679][train.py][line:160][INFO] epoch 30, train 98/100, loss=0.7586 acc=0.8933
+[2022-04-10 23:53:36,950][train.py][line:217][INFO] epoch 30, val, loss=3.1984 acc=0.4083
+[2022-04-10 23:53:36,950][train.py][line:221][INFO] epoch 30, val, loss=3.1984,text_loss=1.4424，vis_loss=1.2191， acc=0.4083
+[2022-04-10 23:53:37,010][train.py][line:239][INFO] ETA:8m/51m
+[2022-04-10 23:53:40,831][train.py][line:160][INFO] epoch 31, train 32/100, loss=1.1406 acc=0.8267
+[2022-04-10 23:53:43,278][train.py][line:160][INFO] epoch 31, train 65/100, loss=1.4856 acc=0.7733
+[2022-04-10 23:53:45,734][train.py][line:160][INFO] epoch 31, train 98/100, loss=1.3236 acc=0.7333
+[2022-04-10 23:53:49,993][train.py][line:217][INFO] epoch 31, val, loss=3.3081 acc=0.4148
+[2022-04-10 23:53:49,993][train.py][line:221][INFO] epoch 31, val, loss=3.3081,text_loss=1.5247，vis_loss=1.4437， acc=0.4148
+[2022-04-10 23:53:50,051][train.py][line:239][INFO] ETA:8m/50m
+[2022-04-10 23:53:53,791][train.py][line:160][INFO] epoch 32, train 32/100, loss=1.8861 acc=0.6933
+[2022-04-10 23:53:56,263][train.py][line:160][INFO] epoch 32, train 65/100, loss=1.1001 acc=0.8267
+[2022-04-10 23:53:58,733][train.py][line:160][INFO] epoch 32, train 98/100, loss=1.4686 acc=0.7067
+[2022-04-10 23:54:03,017][train.py][line:217][INFO] epoch 32, val, loss=3.2184 acc=0.4217
+[2022-04-10 23:54:03,017][train.py][line:221][INFO] epoch 32, val, loss=3.2184,text_loss=1.2877，vis_loss=1.5310， acc=0.4217
+[2022-04-10 23:54:03,076][train.py][line:239][INFO] ETA:8m/50m
+[2022-04-10 23:54:06,891][train.py][line:160][INFO] epoch 33, train 32/100, loss=1.0101 acc=0.8533
+[2022-04-10 23:54:09,345][train.py][line:160][INFO] epoch 33, train 65/100, loss=1.7490 acc=0.8000
+[2022-04-10 23:54:11,795][train.py][line:160][INFO] epoch 33, train 98/100, loss=0.8002 acc=0.8933
+[2022-04-10 23:54:16,037][train.py][line:217][INFO] epoch 33, val, loss=3.0078 acc=0.4767
+[2022-04-10 23:54:16,037][train.py][line:221][INFO] epoch 33, val, loss=3.0078,text_loss=1.6241，vis_loss=1.7367， acc=0.4767
+[2022-04-10 23:54:16,541][train.py][line:239][INFO] ETA:8m/50m
+[2022-04-10 23:54:20,462][train.py][line:160][INFO] epoch 34, train 32/100, loss=1.1073 acc=0.8933
+[2022-04-10 23:54:22,934][train.py][line:160][INFO] epoch 34, train 65/100, loss=0.9661 acc=0.8400
+[2022-04-10 23:54:25,380][train.py][line:160][INFO] epoch 34, train 98/100, loss=1.5851 acc=0.6933
+[2022-04-10 23:54:29,580][train.py][line:217][INFO] epoch 34, val, loss=3.1755 acc=0.4335
+[2022-04-10 23:54:29,581][train.py][line:221][INFO] epoch 34, val, loss=3.1755,text_loss=1.5680，vis_loss=1.5825， acc=0.4335
+[2022-04-10 23:54:29,638][train.py][line:239][INFO] ETA:8m/50m
+[2022-04-10 23:54:33,694][train.py][line:160][INFO] epoch 35, train 32/100, loss=1.0566 acc=0.8400
+[2022-04-10 23:54:36,147][train.py][line:160][INFO] epoch 35, train 65/100, loss=1.3624 acc=0.8000
+[2022-04-10 23:54:38,586][train.py][line:160][INFO] epoch 35, train 98/100, loss=1.3280 acc=0.8000
+[2022-04-10 23:54:42,778][train.py][line:217][INFO] epoch 35, val, loss=3.3739 acc=0.4339
+[2022-04-10 23:54:42,778][train.py][line:221][INFO] epoch 35, val, loss=3.3739,text_loss=1.5792，vis_loss=1.1881， acc=0.4339
+[2022-04-10 23:54:42,837][train.py][line:239][INFO] ETA:9m/50m
+[2022-04-10 23:54:46,780][train.py][line:160][INFO] epoch 36, train 32/100, loss=0.9420 acc=0.9333
+[2022-04-10 23:54:49,244][train.py][line:160][INFO] epoch 36, train 65/100, loss=1.1086 acc=0.8267
+[2022-04-10 23:54:51,687][train.py][line:160][INFO] epoch 36, train 98/100, loss=1.6605 acc=0.8000
+[2022-04-10 23:54:55,920][train.py][line:217][INFO] epoch 36, val, loss=3.2272 acc=0.4573
+[2022-04-10 23:54:55,920][train.py][line:221][INFO] epoch 36, val, loss=3.2272,text_loss=1.8485，vis_loss=1.6091， acc=0.4573
+[2022-04-10 23:54:55,979][train.py][line:239][INFO] ETA:9m/49m
+[2022-04-10 23:55:00,000][train.py][line:160][INFO] epoch 37, train 32/100, loss=2.6732 acc=0.4533
+[2022-04-10 23:55:02,485][train.py][line:160][INFO] epoch 37, train 65/100, loss=1.2822 acc=0.7867
+[2022-04-10 23:55:04,934][train.py][line:160][INFO] epoch 37, train 98/100, loss=1.5547 acc=0.7600
+[2022-04-10 23:55:09,116][train.py][line:217][INFO] epoch 37, val, loss=3.3426 acc=0.4744
+[2022-04-10 23:55:09,116][train.py][line:221][INFO] epoch 37, val, loss=3.3426,text_loss=1.1144，vis_loss=1.0388， acc=0.4744
+[2022-04-10 23:55:09,174][train.py][line:239][INFO] ETA:9m/49m
+[2022-04-10 23:55:13,071][train.py][line:160][INFO] epoch 38, train 32/100, loss=0.9310 acc=0.8533
+[2022-04-10 23:55:15,558][train.py][line:160][INFO] epoch 38, train 65/100, loss=0.8895 acc=0.9067
+[2022-04-10 23:55:18,007][train.py][line:160][INFO] epoch 38, train 98/100, loss=1.2278 acc=0.8533
+[2022-04-10 23:55:22,294][train.py][line:217][INFO] epoch 38, val, loss=3.3551 acc=0.4588
+[2022-04-10 23:55:22,294][train.py][line:221][INFO] epoch 38, val, loss=3.3551,text_loss=1.7533，vis_loss=1.0527， acc=0.4588
+[2022-04-10 23:55:22,352][train.py][line:239][INFO] ETA:9m/49m
+[2022-04-10 23:55:26,154][train.py][line:160][INFO] epoch 39, train 32/100, loss=1.0603 acc=0.8667
+[2022-04-10 23:55:28,606][train.py][line:160][INFO] epoch 39, train 65/100, loss=1.2574 acc=0.8133
+[2022-04-10 23:55:31,044][train.py][line:160][INFO] epoch 39, train 98/100, loss=1.7462 acc=0.7333
+[2022-04-10 23:55:35,297][train.py][line:217][INFO] epoch 39, val, loss=3.3952 acc=0.4480
+[2022-04-10 23:55:35,297][train.py][line:221][INFO] epoch 39, val, loss=3.3952,text_loss=2.0298，vis_loss=1.2218， acc=0.4480
+[2022-04-10 23:55:35,357][train.py][line:239][INFO] ETA:10m/49m
+[2022-04-10 23:55:39,317][train.py][line:160][INFO] epoch 40, train 32/100, loss=0.9290 acc=0.8667
+[2022-04-10 23:55:41,795][train.py][line:160][INFO] epoch 40, train 65/100, loss=1.4552 acc=0.8000
+[2022-04-10 23:55:44,249][train.py][line:160][INFO] epoch 40, train 98/100, loss=1.4074 acc=0.7467
+[2022-04-10 23:55:48,455][train.py][line:217][INFO] epoch 40, val, loss=3.0661 acc=0.4849
+[2022-04-10 23:55:48,455][train.py][line:221][INFO] epoch 40, val, loss=3.0661,text_loss=1.2992，vis_loss=1.4568， acc=0.4849
+[2022-04-10 23:55:48,901][train.py][line:239][INFO] ETA:10m/49m
+[2022-04-10 23:55:52,877][train.py][line:160][INFO] epoch 41, train 32/100, loss=1.7789 acc=0.7067
+[2022-04-10 23:55:55,339][train.py][line:160][INFO] epoch 41, train 65/100, loss=1.0739 acc=0.8667
+[2022-04-10 23:55:57,790][train.py][line:160][INFO] epoch 41, train 98/100, loss=1.5358 acc=0.7333
+[2022-04-10 23:56:02,101][train.py][line:217][INFO] epoch 41, val, loss=2.6888 acc=0.5608
+[2022-04-10 23:56:02,102][train.py][line:221][INFO] epoch 41, val, loss=2.6888,text_loss=1.1816，vis_loss=1.3044， acc=0.5608
+[2022-04-10 23:56:02,517][train.py][line:239][INFO] ETA:10m/49m
+[2022-04-10 23:56:06,314][train.py][line:160][INFO] epoch 42, train 32/100, loss=1.8442 acc=0.7733
+[2022-04-10 23:56:08,790][train.py][line:160][INFO] epoch 42, train 65/100, loss=1.8497 acc=0.6667
+[2022-04-10 23:56:11,234][train.py][line:160][INFO] epoch 42, train 98/100, loss=1.3474 acc=0.8400
+[2022-04-10 23:56:15,426][train.py][line:217][INFO] epoch 42, val, loss=2.9471 acc=0.5275
+[2022-04-10 23:56:15,426][train.py][line:221][INFO] epoch 42, val, loss=2.9471,text_loss=2.0916，vis_loss=1.4505， acc=0.5275
+[2022-04-10 23:56:15,484][train.py][line:239][INFO] ETA:10m/49m
+[2022-04-10 23:56:19,399][train.py][line:160][INFO] epoch 43, train 32/100, loss=1.4596 acc=0.7467
+[2022-04-10 23:56:21,860][train.py][line:160][INFO] epoch 43, train 65/100, loss=0.8934 acc=0.8800
+[2022-04-10 23:56:24,333][train.py][line:160][INFO] epoch 43, train 98/100, loss=1.4613 acc=0.7867
+[2022-04-10 23:56:28,622][train.py][line:217][INFO] epoch 43, val, loss=3.0763 acc=0.5008
+[2022-04-10 23:56:28,623][train.py][line:221][INFO] epoch 43, val, loss=3.0763,text_loss=1.3286，vis_loss=1.8402， acc=0.5008
+[2022-04-10 23:56:28,681][train.py][line:239][INFO] ETA:10m/49m
+[2022-04-10 23:56:32,517][train.py][line:160][INFO] epoch 44, train 32/100, loss=1.3653 acc=0.7733
+[2022-04-10 23:56:34,969][train.py][line:160][INFO] epoch 44, train 65/100, loss=1.0477 acc=0.8933
+[2022-04-10 23:56:37,408][train.py][line:160][INFO] epoch 44, train 98/100, loss=1.4868 acc=0.8667
+[2022-04-10 23:56:41,567][train.py][line:217][INFO] epoch 44, val, loss=2.9928 acc=0.5155
+[2022-04-10 23:56:41,567][train.py][line:221][INFO] epoch 44, val, loss=2.9928,text_loss=1.3382，vis_loss=2.2205， acc=0.5155
+[2022-04-10 23:56:41,625][train.py][line:239][INFO] ETA:11m/48m
+[2022-04-10 23:56:45,470][train.py][line:160][INFO] epoch 45, train 32/100, loss=1.1790 acc=0.8400
+[2022-04-10 23:56:47,958][train.py][line:160][INFO] epoch 45, train 65/100, loss=2.1441 acc=0.7200
+[2022-04-10 23:56:50,412][train.py][line:160][INFO] epoch 45, train 98/100, loss=0.5080 acc=0.9467
+[2022-04-10 23:56:54,744][train.py][line:217][INFO] epoch 45, val, loss=2.6535 acc=0.5545
+[2022-04-10 23:56:54,744][train.py][line:221][INFO] epoch 45, val, loss=2.6535,text_loss=1.3136，vis_loss=1.6105， acc=0.5545
+[2022-04-10 23:56:54,803][train.py][line:239][INFO] ETA:11m/48m
+[2022-04-10 23:56:58,641][train.py][line:160][INFO] epoch 46, train 32/100, loss=1.0595 acc=0.7600
+[2022-04-10 23:57:01,115][train.py][line:160][INFO] epoch 46, train 65/100, loss=0.9149 acc=0.8667
+[2022-04-10 23:57:03,557][train.py][line:160][INFO] epoch 46, train 98/100, loss=0.5757 acc=0.9333
+[2022-04-10 23:57:07,723][train.py][line:217][INFO] epoch 46, val, loss=3.0088 acc=0.5213
+[2022-04-10 23:57:07,723][train.py][line:221][INFO] epoch 46, val, loss=3.0088,text_loss=1.5107，vis_loss=1.3345， acc=0.5213
+[2022-04-10 23:57:07,783][train.py][line:239][INFO] ETA:11m/48m
+[2022-04-10 23:57:11,740][train.py][line:160][INFO] epoch 47, train 32/100, loss=0.8440 acc=0.8933
+[2022-04-10 23:57:14,195][train.py][line:160][INFO] epoch 47, train 65/100, loss=0.9190 acc=0.8667
+[2022-04-10 23:57:16,641][train.py][line:160][INFO] epoch 47, train 98/100, loss=1.1177 acc=0.8533
+[2022-04-10 23:57:20,796][train.py][line:217][INFO] epoch 47, val, loss=2.7110 acc=0.5659
+[2022-04-10 23:57:20,797][train.py][line:221][INFO] epoch 47, val, loss=2.7110,text_loss=1.1225，vis_loss=1.3545， acc=0.5659
+[2022-04-10 23:57:21,278][train.py][line:239][INFO] ETA:11m/48m
+[2022-04-10 23:57:25,067][train.py][line:160][INFO] epoch 48, train 32/100, loss=0.9550 acc=0.8533
+[2022-04-10 23:57:27,515][train.py][line:160][INFO] epoch 48, train 65/100, loss=1.1171 acc=0.8933
+[2022-04-10 23:57:29,978][train.py][line:160][INFO] epoch 48, train 98/100, loss=0.9645 acc=0.8400
+[2022-04-10 23:57:34,229][train.py][line:217][INFO] epoch 48, val, loss=2.7624 acc=0.5505
+[2022-04-10 23:57:34,230][train.py][line:221][INFO] epoch 48, val, loss=2.7624,text_loss=1.6323，vis_loss=1.2321， acc=0.5505
+[2022-04-10 23:57:34,287][train.py][line:239][INFO] ETA:12m/48m
+[2022-04-10 23:57:38,197][train.py][line:160][INFO] epoch 49, train 32/100, loss=1.3572 acc=0.8133
+[2022-04-10 23:57:40,650][train.py][line:160][INFO] epoch 49, train 65/100, loss=0.4076 acc=0.9333
+[2022-04-10 23:57:43,084][train.py][line:160][INFO] epoch 49, train 98/100, loss=1.5533 acc=0.8267
+[2022-04-10 23:57:47,341][train.py][line:217][INFO] epoch 49, val, loss=2.8547 acc=0.5404
+[2022-04-10 23:57:47,341][train.py][line:221][INFO] epoch 49, val, loss=2.8547,text_loss=1.3932，vis_loss=1.7092， acc=0.5404
+[2022-04-10 23:57:47,399][train.py][line:239][INFO] ETA:12m/48m
+[2022-04-10 23:57:51,200][train.py][line:160][INFO] epoch 50, train 32/100, loss=1.1455 acc=0.8533
+[2022-04-10 23:57:53,667][train.py][line:160][INFO] epoch 50, train 65/100, loss=0.6134 acc=0.9200
+[2022-04-10 23:57:56,113][train.py][line:160][INFO] epoch 50, train 98/100, loss=1.0641 acc=0.8267
+[2022-04-10 23:58:00,363][train.py][line:217][INFO] epoch 50, val, loss=2.7954 acc=0.5763
+[2022-04-10 23:58:00,363][train.py][line:221][INFO] epoch 50, val, loss=2.7954,text_loss=1.8013，vis_loss=1.5575， acc=0.5763
+[2022-04-10 23:58:00,845][train.py][line:239][INFO] ETA:12m/48m
+[2022-04-10 23:58:04,605][train.py][line:160][INFO] epoch 51, train 32/100, loss=0.4253 acc=0.9467
+[2022-04-10 23:58:07,067][train.py][line:160][INFO] epoch 51, train 65/100, loss=0.5445 acc=0.9733
+[2022-04-10 23:58:09,514][train.py][line:160][INFO] epoch 51, train 98/100, loss=0.7690 acc=0.8533
+[2022-04-10 23:58:13,738][train.py][line:217][INFO] epoch 51, val, loss=3.1005 acc=0.5135
+[2022-04-10 23:58:13,738][train.py][line:221][INFO] epoch 51, val, loss=3.1005,text_loss=1.3430，vis_loss=1.3668， acc=0.5135
+[2022-04-10 23:58:13,797][train.py][line:239][INFO] ETA:12m/48m
+[2022-04-10 23:58:17,745][train.py][line:160][INFO] epoch 52, train 32/100, loss=0.6350 acc=0.9200
+[2022-04-10 23:58:20,225][train.py][line:160][INFO] epoch 52, train 65/100, loss=0.7769 acc=0.9200
+[2022-04-10 23:58:22,673][train.py][line:160][INFO] epoch 52, train 98/100, loss=0.7094 acc=0.9200
+[2022-04-10 23:58:27,019][train.py][line:217][INFO] epoch 52, val, loss=2.8738 acc=0.5273
+[2022-04-10 23:58:27,019][train.py][line:221][INFO] epoch 52, val, loss=2.8738,text_loss=1.6376，vis_loss=1.5670， acc=0.5273
+[2022-04-10 23:58:27,077][train.py][line:239][INFO] ETA:12m/48m
+[2022-04-10 23:58:31,204][train.py][line:160][INFO] epoch 53, train 32/100, loss=0.2629 acc=0.9600
+[2022-04-10 23:58:33,676][train.py][line:160][INFO] epoch 53, train 65/100, loss=0.6305 acc=0.8933
+[2022-04-10 23:58:36,111][train.py][line:160][INFO] epoch 53, train 98/100, loss=1.4890 acc=0.7467
+[2022-04-10 23:58:40,334][train.py][line:217][INFO] epoch 53, val, loss=2.7942 acc=0.5656
+[2022-04-10 23:58:40,335][train.py][line:221][INFO] epoch 53, val, loss=2.7942,text_loss=1.2409，vis_loss=0.8962， acc=0.5656
+[2022-04-10 23:58:40,394][train.py][line:239][INFO] ETA:13m/48m
+[2022-04-10 23:58:44,222][train.py][line:160][INFO] epoch 54, train 32/100, loss=1.3321 acc=0.8533
+[2022-04-10 23:58:46,686][train.py][line:160][INFO] epoch 54, train 65/100, loss=0.8894 acc=0.8533
+[2022-04-10 23:58:49,126][train.py][line:160][INFO] epoch 54, train 98/100, loss=0.4413 acc=0.9600
+[2022-04-10 23:58:53,306][train.py][line:217][INFO] epoch 54, val, loss=2.8721 acc=0.5548
+[2022-04-10 23:58:53,307][train.py][line:221][INFO] epoch 54, val, loss=2.8721,text_loss=1.0135，vis_loss=0.7401， acc=0.5548
+[2022-04-10 23:58:53,366][train.py][line:239][INFO] ETA:13m/48m
+[2022-04-10 23:58:57,262][train.py][line:160][INFO] epoch 55, train 32/100, loss=0.9982 acc=0.8400
+[2022-04-10 23:58:59,733][train.py][line:160][INFO] epoch 55, train 65/100, loss=0.5567 acc=0.9333
+[2022-04-10 23:59:02,190][train.py][line:160][INFO] epoch 55, train 98/100, loss=0.5250 acc=0.9467
+[2022-04-10 23:59:06,511][train.py][line:217][INFO] epoch 55, val, loss=2.9626 acc=0.5408
+[2022-04-10 23:59:06,511][train.py][line:221][INFO] epoch 55, val, loss=2.9626,text_loss=1.4721，vis_loss=1.0123， acc=0.5408
+[2022-04-10 23:59:06,569][train.py][line:239][INFO] ETA:13m/48m
+[2022-04-10 23:59:10,618][train.py][line:160][INFO] epoch 56, train 32/100, loss=0.4778 acc=0.9600
+[2022-04-10 23:59:13,087][train.py][line:160][INFO] epoch 56, train 65/100, loss=0.8583 acc=0.8800
+[2022-04-10 23:59:15,540][train.py][line:160][INFO] epoch 56, train 98/100, loss=0.9571 acc=0.8533
+[2022-04-10 23:59:19,847][train.py][line:217][INFO] epoch 56, val, loss=2.7444 acc=0.5721
+[2022-04-10 23:59:19,848][train.py][line:221][INFO] epoch 56, val, loss=2.7444,text_loss=1.5280，vis_loss=1.6495， acc=0.5721
+[2022-04-10 23:59:19,907][train.py][line:239][INFO] ETA:13m/47m
+[2022-04-10 23:59:23,914][train.py][line:160][INFO] epoch 57, train 32/100, loss=0.7040 acc=0.9067
+[2022-04-10 23:59:26,398][train.py][line:160][INFO] epoch 57, train 65/100, loss=0.8677 acc=0.9067
+[2022-04-10 23:59:28,861][train.py][line:160][INFO] epoch 57, train 98/100, loss=0.7948 acc=0.8933
+[2022-04-10 23:59:33,116][train.py][line:217][INFO] epoch 57, val, loss=3.1158 acc=0.4980
+[2022-04-10 23:59:33,116][train.py][line:221][INFO] epoch 57, val, loss=3.1158,text_loss=1.8149，vis_loss=1.4786， acc=0.4980
+[2022-04-10 23:59:33,175][train.py][line:239][INFO] ETA:14m/47m
+[2022-04-10 23:59:37,215][train.py][line:160][INFO] epoch 58, train 32/100, loss=0.3612 acc=0.9733
+[2022-04-10 23:59:39,662][train.py][line:160][INFO] epoch 58, train 65/100, loss=1.0508 acc=0.8800
+[2022-04-10 23:59:42,101][train.py][line:160][INFO] epoch 58, train 98/100, loss=0.9870 acc=0.9067
+[2022-04-10 23:59:46,412][train.py][line:217][INFO] epoch 58, val, loss=2.8562 acc=0.5461
+[2022-04-10 23:59:46,412][train.py][line:221][INFO] epoch 58, val, loss=2.8562,text_loss=1.5575，vis_loss=1.8100， acc=0.5461
+[2022-04-10 23:59:46,471][train.py][line:239][INFO] ETA:14m/47m
+[2022-04-10 23:59:50,339][train.py][line:160][INFO] epoch 59, train 32/100, loss=0.4123 acc=0.9467
+[2022-04-10 23:59:52,807][train.py][line:160][INFO] epoch 59, train 65/100, loss=1.0361 acc=0.8800
+[2022-04-10 23:59:55,250][train.py][line:160][INFO] epoch 59, train 98/100, loss=1.9591 acc=0.6800
+[2022-04-10 23:59:59,494][train.py][line:217][INFO] epoch 59, val, loss=2.8462 acc=0.5535
+[2022-04-10 23:59:59,495][train.py][line:221][INFO] epoch 59, val, loss=2.8462,text_loss=1.2907，vis_loss=1.2624， acc=0.5535
+[2022-04-10 23:59:59,553][train.py][line:239][INFO] ETA:14m/47m
+[2022-04-11 00:00:03,660][train.py][line:160][INFO] epoch 60, train 32/100, loss=0.6623 acc=0.9200
+[2022-04-11 00:00:06,137][train.py][line:160][INFO] epoch 60, train 65/100, loss=0.5482 acc=0.9333
+[2022-04-11 00:00:08,590][train.py][line:160][INFO] epoch 60, train 98/100, loss=0.3304 acc=0.9600
+[2022-04-11 00:00:12,898][train.py][line:217][INFO] epoch 60, val, loss=3.1091 acc=0.5169
+[2022-04-11 00:00:12,899][train.py][line:221][INFO] epoch 60, val, loss=3.1091,text_loss=1.5069，vis_loss=1.7191， acc=0.5169
+[2022-04-11 00:00:12,957][train.py][line:239][INFO] ETA:14m/47m
+[2022-04-11 00:00:16,959][train.py][line:160][INFO] epoch 61, train 32/100, loss=0.5092 acc=0.9467
+[2022-04-11 00:00:19,409][train.py][line:160][INFO] epoch 61, train 65/100, loss=0.7080 acc=0.8667
+[2022-04-11 00:00:21,871][train.py][line:160][INFO] epoch 61, train 98/100, loss=0.8232 acc=0.8933
+[2022-04-11 00:00:26,214][train.py][line:217][INFO] epoch 61, val, loss=2.8728 acc=0.5477
+[2022-04-11 00:00:26,214][train.py][line:221][INFO] epoch 61, val, loss=2.8728,text_loss=1.4380，vis_loss=1.9875， acc=0.5477
+[2022-04-11 00:00:26,273][train.py][line:239][INFO] ETA:14m/47m
+[2022-04-11 00:00:30,392][train.py][line:160][INFO] epoch 62, train 32/100, loss=1.3689 acc=0.8000
+[2022-04-11 00:00:32,889][train.py][line:160][INFO] epoch 62, train 65/100, loss=0.4140 acc=0.9733
+[2022-04-11 00:00:35,352][train.py][line:160][INFO] epoch 62, train 98/100, loss=0.2524 acc=0.9867
+[2022-04-11 00:00:39,659][train.py][line:217][INFO] epoch 62, val, loss=2.8421 acc=0.5437
+[2022-04-11 00:00:39,660][train.py][line:221][INFO] epoch 62, val, loss=2.8421,text_loss=1.2942，vis_loss=1.2516， acc=0.5437
+[2022-04-11 00:00:39,718][train.py][line:239][INFO] ETA:15m/47m
+[2022-04-11 00:00:43,733][train.py][line:160][INFO] epoch 63, train 32/100, loss=1.0012 acc=0.8400
+[2022-04-11 00:00:46,189][train.py][line:160][INFO] epoch 63, train 65/100, loss=0.3660 acc=0.9333
+[2022-04-11 00:00:48,647][train.py][line:160][INFO] epoch 63, train 98/100, loss=0.3203 acc=0.9467
+[2022-04-11 00:00:52,987][train.py][line:217][INFO] epoch 63, val, loss=2.8807 acc=0.5321
+[2022-04-11 00:00:52,987][train.py][line:221][INFO] epoch 63, val, loss=2.8807,text_loss=1.1084，vis_loss=1.9608， acc=0.5321
+[2022-04-11 00:00:53,046][train.py][line:239][INFO] ETA:15m/47m
+[2022-04-11 00:00:56,941][train.py][line:160][INFO] epoch 64, train 32/100, loss=0.7409 acc=0.8533
+[2022-04-11 00:00:59,420][train.py][line:160][INFO] epoch 64, train 65/100, loss=0.5493 acc=0.8933
+[2022-04-11 00:01:01,886][train.py][line:160][INFO] epoch 64, train 98/100, loss=0.9701 acc=0.8667
+[2022-04-11 00:01:06,323][train.py][line:217][INFO] epoch 64, val, loss=2.8960 acc=0.5409
+[2022-04-11 00:01:06,323][train.py][line:221][INFO] epoch 64, val, loss=2.8960,text_loss=1.6121，vis_loss=1.2588， acc=0.5409
+[2022-04-11 00:01:06,388][train.py][line:239][INFO] ETA:15m/47m
+[2022-04-11 00:01:10,312][train.py][line:160][INFO] epoch 65, train 32/100, loss=0.5774 acc=0.9467
+[2022-04-11 00:01:12,767][train.py][line:160][INFO] epoch 65, train 65/100, loss=0.6835 acc=0.9067
+[2022-04-11 00:01:15,217][train.py][line:160][INFO] epoch 65, train 98/100, loss=0.6818 acc=0.9333
+[2022-04-11 00:01:19,467][train.py][line:217][INFO] epoch 65, val, loss=2.7134 acc=0.5836
+[2022-04-11 00:01:19,467][train.py][line:221][INFO] epoch 65, val, loss=2.7134,text_loss=0.9617，vis_loss=1.3073， acc=0.5836
+[2022-04-11 00:01:19,960][train.py][line:239][INFO] ETA:15m/47m
+[2022-04-11 00:01:23,945][train.py][line:160][INFO] epoch 66, train 32/100, loss=0.4360 acc=0.9600
+[2022-04-11 00:01:26,419][train.py][line:160][INFO] epoch 66, train 65/100, loss=0.8591 acc=0.9333
+[2022-04-11 00:01:28,875][train.py][line:160][INFO] epoch 66, train 98/100, loss=0.6121 acc=0.9067
+[2022-04-11 00:01:33,157][train.py][line:217][INFO] epoch 66, val, loss=3.0090 acc=0.5424
+[2022-04-11 00:01:33,158][train.py][line:221][INFO] epoch 66, val, loss=3.0090,text_loss=1.2790，vis_loss=1.7111， acc=0.5424
+[2022-04-11 00:01:33,216][train.py][line:239][INFO] ETA:16m/47m
+[2022-04-11 00:01:37,065][train.py][line:160][INFO] epoch 67, train 32/100, loss=0.7916 acc=0.8533
+[2022-04-11 00:01:39,518][train.py][line:160][INFO] epoch 67, train 65/100, loss=0.6451 acc=0.9333
+[2022-04-11 00:01:41,964][train.py][line:160][INFO] epoch 67, train 98/100, loss=0.5118 acc=0.9467
+[2022-04-11 00:01:46,304][train.py][line:217][INFO] epoch 67, val, loss=2.6715 acc=0.5835
+[2022-04-11 00:01:46,304][train.py][line:221][INFO] epoch 67, val, loss=2.6715,text_loss=1.8444，vis_loss=1.7510， acc=0.5835
+[2022-04-11 00:01:46,366][train.py][line:239][INFO] ETA:16m/47m
+[2022-04-11 00:01:50,317][train.py][line:160][INFO] epoch 68, train 32/100, loss=1.0545 acc=0.8000
+[2022-04-11 00:01:52,783][train.py][line:160][INFO] epoch 68, train 65/100, loss=0.5460 acc=0.9200
+[2022-04-11 00:01:55,231][train.py][line:160][INFO] epoch 68, train 98/100, loss=1.2998 acc=0.8800
+[2022-04-11 00:01:59,366][train.py][line:217][INFO] epoch 68, val, loss=2.8799 acc=0.5543
+[2022-04-11 00:01:59,367][train.py][line:221][INFO] epoch 68, val, loss=2.8799,text_loss=1.4554，vis_loss=1.2177， acc=0.5543
+[2022-04-11 00:01:59,425][train.py][line:239][INFO] ETA:16m/47m
+[2022-04-11 00:02:03,554][train.py][line:160][INFO] epoch 69, train 32/100, loss=0.3154 acc=0.9733
+[2022-04-11 00:02:06,029][train.py][line:160][INFO] epoch 69, train 65/100, loss=1.2027 acc=0.9467
+[2022-04-11 00:02:08,500][train.py][line:160][INFO] epoch 69, train 98/100, loss=1.1113 acc=0.8800
+[2022-04-11 00:02:12,930][train.py][line:217][INFO] epoch 69, val, loss=2.9376 acc=0.5444
+[2022-04-11 00:02:12,931][train.py][line:221][INFO] epoch 69, val, loss=2.9376,text_loss=1.3377，vis_loss=0.8176， acc=0.5444
+[2022-04-11 00:02:12,991][train.py][line:239][INFO] ETA:16m/47m
+[2022-04-11 00:02:17,033][train.py][line:160][INFO] epoch 70, train 32/100, loss=0.3716 acc=0.9733
+[2022-04-11 00:02:19,513][train.py][line:160][INFO] epoch 70, train 65/100, loss=0.8041 acc=0.9067
+[2022-04-11 00:02:21,971][train.py][line:160][INFO] epoch 70, train 98/100, loss=0.2396 acc=0.9733
+[2022-04-11 00:02:26,335][train.py][line:217][INFO] epoch 70, val, loss=2.6435 acc=0.5787
+[2022-04-11 00:02:26,335][train.py][line:221][INFO] epoch 70, val, loss=2.6435,text_loss=1.2887，vis_loss=2.0459， acc=0.5787
+[2022-04-11 00:02:26,394][train.py][line:239][INFO] ETA:16m/47m
+[2022-04-11 00:02:30,319][train.py][line:160][INFO] epoch 71, train 32/100, loss=0.6074 acc=0.8933
+[2022-04-11 00:02:32,791][train.py][line:160][INFO] epoch 71, train 65/100, loss=0.7093 acc=0.8667
+[2022-04-11 00:02:35,267][train.py][line:160][INFO] epoch 71, train 98/100, loss=0.1876 acc=0.9867
+[2022-04-11 00:02:39,456][train.py][line:217][INFO] epoch 71, val, loss=2.7329 acc=0.5792
+[2022-04-11 00:02:39,457][train.py][line:221][INFO] epoch 71, val, loss=2.7329,text_loss=1.3192，vis_loss=0.7629， acc=0.5792
+[2022-04-11 00:02:39,516][train.py][line:239][INFO] ETA:17m/47m
+[2022-04-11 00:02:43,391][train.py][line:160][INFO] epoch 72, train 32/100, loss=0.5076 acc=0.9467
+[2022-04-11 00:02:45,857][train.py][line:160][INFO] epoch 72, train 65/100, loss=0.2127 acc=0.9733
+[2022-04-11 00:02:48,303][train.py][line:160][INFO] epoch 72, train 98/100, loss=0.4566 acc=0.9467
+[2022-04-11 00:02:52,604][train.py][line:217][INFO] epoch 72, val, loss=2.7186 acc=0.5753
+[2022-04-11 00:02:52,605][train.py][line:221][INFO] epoch 72, val, loss=2.7186,text_loss=0.9095，vis_loss=1.0868， acc=0.5753
+[2022-04-11 00:02:52,663][train.py][line:239][INFO] ETA:17m/47m
+[2022-04-11 00:02:56,434][train.py][line:160][INFO] epoch 73, train 32/100, loss=0.3328 acc=0.9600
+[2022-04-11 00:02:58,900][train.py][line:160][INFO] epoch 73, train 65/100, loss=0.6778 acc=0.9600
+[2022-04-11 00:03:01,351][train.py][line:160][INFO] epoch 73, train 98/100, loss=0.3815 acc=0.9733
+[2022-04-11 00:03:05,590][train.py][line:217][INFO] epoch 73, val, loss=2.7748 acc=0.5793
+[2022-04-11 00:03:05,590][train.py][line:221][INFO] epoch 73, val, loss=2.7748,text_loss=1.4280，vis_loss=1.2166， acc=0.5793
+[2022-04-11 00:03:05,650][train.py][line:239][INFO] ETA:17m/47m
+[2022-04-11 00:03:09,483][train.py][line:160][INFO] epoch 74, train 32/100, loss=0.8909 acc=0.8000
+[2022-04-11 00:03:11,947][train.py][line:160][INFO] epoch 74, train 65/100, loss=0.1227 acc=0.9867
+[2022-04-11 00:03:14,395][train.py][line:160][INFO] epoch 74, train 98/100, loss=0.5664 acc=0.9867
+[2022-04-11 00:03:18,581][train.py][line:217][INFO] epoch 74, val, loss=2.8041 acc=0.5572
+[2022-04-11 00:03:18,581][train.py][line:221][INFO] epoch 74, val, loss=2.8041,text_loss=1.1257，vis_loss=1.6513， acc=0.5572
+[2022-04-11 00:03:18,640][train.py][line:239][INFO] ETA:17m/47m
+[2022-04-11 00:03:22,504][train.py][line:160][INFO] epoch 75, train 32/100, loss=1.2938 acc=0.7867
+[2022-04-11 00:03:24,958][train.py][line:160][INFO] epoch 75, train 65/100, loss=0.1000 acc=1.0000
+[2022-04-11 00:03:27,411][train.py][line:160][INFO] epoch 75, train 98/100, loss=0.3675 acc=0.9333
+[2022-04-11 00:03:31,670][train.py][line:217][INFO] epoch 75, val, loss=2.8419 acc=0.5625
+[2022-04-11 00:03:31,670][train.py][line:221][INFO] epoch 75, val, loss=2.8419,text_loss=1.2785，vis_loss=1.1665， acc=0.5625
+[2022-04-11 00:03:31,731][train.py][line:239][INFO] ETA:17m/47m
+[2022-04-11 00:03:35,658][train.py][line:160][INFO] epoch 76, train 32/100, loss=0.1631 acc=0.9867
+[2022-04-11 00:03:38,143][train.py][line:160][INFO] epoch 76, train 65/100, loss=0.4567 acc=0.9200
+[2022-04-11 00:03:40,609][train.py][line:160][INFO] epoch 76, train 98/100, loss=0.2819 acc=0.9867
+[2022-04-11 00:03:44,925][train.py][line:217][INFO] epoch 76, val, loss=2.7699 acc=0.5724
+[2022-04-11 00:03:44,925][train.py][line:221][INFO] epoch 76, val, loss=2.7699,text_loss=1.1833，vis_loss=1.1743， acc=0.5724
+[2022-04-11 00:03:44,983][train.py][line:239][INFO] ETA:18m/47m
+[2022-04-11 00:03:48,878][train.py][line:160][INFO] epoch 77, train 32/100, loss=0.7292 acc=0.8533
+[2022-04-11 00:03:51,342][train.py][line:160][INFO] epoch 77, train 65/100, loss=0.3169 acc=0.9600
+[2022-04-11 00:03:53,792][train.py][line:160][INFO] epoch 77, train 98/100, loss=0.3227 acc=0.9467
+[2022-04-11 00:03:58,209][train.py][line:217][INFO] epoch 77, val, loss=2.6470 acc=0.5776
+[2022-04-11 00:03:58,209][train.py][line:221][INFO] epoch 77, val, loss=2.6470,text_loss=1.2457，vis_loss=1.0581， acc=0.5776
+[2022-04-11 00:03:58,268][train.py][line:239][INFO] ETA:18m/47m
+[2022-04-11 00:04:02,092][train.py][line:160][INFO] epoch 78, train 32/100, loss=0.2448 acc=1.0000
+[2022-04-11 00:04:04,571][train.py][line:160][INFO] epoch 78, train 65/100, loss=0.3258 acc=0.9733
+[2022-04-11 00:04:07,016][train.py][line:160][INFO] epoch 78, train 98/100, loss=1.1628 acc=0.7467
+[2022-04-11 00:04:11,448][train.py][line:217][INFO] epoch 78, val, loss=2.8055 acc=0.5635
+[2022-04-11 00:04:11,448][train.py][line:221][INFO] epoch 78, val, loss=2.8055,text_loss=1.3224，vis_loss=2.1600， acc=0.5635
+[2022-04-11 00:04:11,508][train.py][line:239][INFO] ETA:18m/47m
+[2022-04-11 00:04:15,514][train.py][line:160][INFO] epoch 79, train 32/100, loss=0.3260 acc=0.9467
+[2022-04-11 00:04:17,982][train.py][line:160][INFO] epoch 79, train 65/100, loss=0.2849 acc=0.9600
+[2022-04-11 00:04:20,428][train.py][line:160][INFO] epoch 79, train 98/100, loss=0.3861 acc=0.9333
+[2022-04-11 00:04:24,670][train.py][line:217][INFO] epoch 79, val, loss=2.7989 acc=0.5645
+[2022-04-11 00:04:24,670][train.py][line:221][INFO] epoch 79, val, loss=2.7989,text_loss=1.3648，vis_loss=1.1780， acc=0.5645
+[2022-04-11 00:04:24,731][train.py][line:239][INFO] ETA:18m/47m
+[2022-04-11 00:04:28,545][train.py][line:160][INFO] epoch 80, train 32/100, loss=0.6869 acc=0.8800
+[2022-04-11 00:04:31,008][train.py][line:160][INFO] epoch 80, train 65/100, loss=0.9451 acc=0.9200
+[2022-04-11 00:04:33,451][train.py][line:160][INFO] epoch 80, train 98/100, loss=0.2904 acc=0.9733
+[2022-04-11 00:04:37,769][train.py][line:217][INFO] epoch 80, val, loss=2.8139 acc=0.5700
+[2022-04-11 00:04:37,769][train.py][line:221][INFO] epoch 80, val, loss=2.8139,text_loss=1.6988，vis_loss=2.1171， acc=0.5700
+[2022-04-11 00:04:37,828][train.py][line:239][INFO] ETA:19m/46m
+[2022-04-11 00:04:41,666][train.py][line:160][INFO] epoch 81, train 32/100, loss=0.3339 acc=0.9733
+[2022-04-11 00:04:44,125][train.py][line:160][INFO] epoch 81, train 65/100, loss=0.9685 acc=0.8667
+[2022-04-11 00:04:46,570][train.py][line:160][INFO] epoch 81, train 98/100, loss=0.4788 acc=0.9333
+[2022-04-11 00:04:50,842][train.py][line:217][INFO] epoch 81, val, loss=2.8117 acc=0.5821
+[2022-04-11 00:04:50,842][train.py][line:221][INFO] epoch 81, val, loss=2.8117,text_loss=1.5227，vis_loss=1.6611， acc=0.5821
+[2022-04-11 00:04:50,901][train.py][line:239][INFO] ETA:19m/46m
+[2022-04-11 00:04:54,970][train.py][line:160][INFO] epoch 82, train 32/100, loss=0.3950 acc=0.9467
+[2022-04-11 00:04:57,441][train.py][line:160][INFO] epoch 82, train 65/100, loss=0.5187 acc=0.9200
+[2022-04-11 00:04:59,880][train.py][line:160][INFO] epoch 82, train 98/100, loss=1.4875 acc=0.7733
+[2022-04-11 00:05:04,208][train.py][line:217][INFO] epoch 82, val, loss=2.6758 acc=0.5920
+[2022-04-11 00:05:04,208][train.py][line:221][INFO] epoch 82, val, loss=2.6758,text_loss=2.0085，vis_loss=1.4601， acc=0.5920
+[2022-04-11 00:05:04,712][train.py][line:239][INFO] ETA:19m/46m
+[2022-04-11 00:05:08,750][train.py][line:160][INFO] epoch 83, train 32/100, loss=0.5294 acc=0.9200
+[2022-04-11 00:05:11,228][train.py][line:160][INFO] epoch 83, train 65/100, loss=0.2420 acc=0.9867
+[2022-04-11 00:05:13,673][train.py][line:160][INFO] epoch 83, train 98/100, loss=0.4372 acc=0.9333
+[2022-04-11 00:05:18,115][train.py][line:217][INFO] epoch 83, val, loss=2.6126 acc=0.5877
+[2022-04-11 00:05:18,115][train.py][line:221][INFO] epoch 83, val, loss=2.6126,text_loss=1.5038，vis_loss=1.5010， acc=0.5877
+[2022-04-11 00:05:18,175][train.py][line:239][INFO] ETA:19m/46m
+[2022-04-11 00:05:22,031][train.py][line:160][INFO] epoch 84, train 32/100, loss=0.2971 acc=0.9733
+[2022-04-11 00:05:24,502][train.py][line:160][INFO] epoch 84, train 65/100, loss=0.2843 acc=0.9600
+[2022-04-11 00:05:26,954][train.py][line:160][INFO] epoch 84, train 98/100, loss=0.2778 acc=0.9733
+[2022-04-11 00:05:31,200][train.py][line:217][INFO] epoch 84, val, loss=2.7664 acc=0.5789
+[2022-04-11 00:05:31,200][train.py][line:221][INFO] epoch 84, val, loss=2.7664,text_loss=1.2821，vis_loss=0.7351， acc=0.5789
+[2022-04-11 00:05:31,260][train.py][line:239][INFO] ETA:19m/46m
+[2022-04-11 00:05:35,176][train.py][line:160][INFO] epoch 85, train 32/100, loss=0.5836 acc=0.9200
+[2022-04-11 00:05:37,657][train.py][line:160][INFO] epoch 85, train 65/100, loss=0.6387 acc=0.9067
+[2022-04-11 00:05:40,105][train.py][line:160][INFO] epoch 85, train 98/100, loss=0.3599 acc=0.9733
+[2022-04-11 00:05:44,327][train.py][line:217][INFO] epoch 85, val, loss=2.5546 acc=0.5983
+[2022-04-11 00:05:44,327][train.py][line:221][INFO] epoch 85, val, loss=2.5546,text_loss=1.0048，vis_loss=0.7885， acc=0.5983
+[2022-04-11 00:05:44,731][train.py][line:239][INFO] ETA:20m/46m
+[2022-04-11 00:05:48,735][train.py][line:160][INFO] epoch 86, train 32/100, loss=0.1719 acc=0.9867
+[2022-04-11 00:05:51,196][train.py][line:160][INFO] epoch 86, train 65/100, loss=0.2739 acc=0.9600
+[2022-04-11 00:05:53,653][train.py][line:160][INFO] epoch 86, train 98/100, loss=0.1740 acc=0.9867
+[2022-04-11 00:05:58,012][train.py][line:217][INFO] epoch 86, val, loss=2.8121 acc=0.5793
+[2022-04-11 00:05:58,012][train.py][line:221][INFO] epoch 86, val, loss=2.8121,text_loss=1.3559，vis_loss=2.2487， acc=0.5793
+[2022-04-11 00:05:58,075][train.py][line:239][INFO] ETA:20m/46m
+[2022-04-11 00:06:01,967][train.py][line:160][INFO] epoch 87, train 32/100, loss=0.0931 acc=1.0000
+[2022-04-11 00:06:04,427][train.py][line:160][INFO] epoch 87, train 65/100, loss=0.8430 acc=0.8000
+[2022-04-11 00:06:06,869][train.py][line:160][INFO] epoch 87, train 98/100, loss=1.4521 acc=0.8267
+[2022-04-11 00:06:11,179][train.py][line:217][INFO] epoch 87, val, loss=2.6397 acc=0.5953
+[2022-04-11 00:06:11,179][train.py][line:221][INFO] epoch 87, val, loss=2.6397,text_loss=1.2521，vis_loss=1.0451， acc=0.5953
+[2022-04-11 00:06:11,241][train.py][line:239][INFO] ETA:20m/46m
+[2022-04-11 00:06:15,306][train.py][line:160][INFO] epoch 88, train 32/100, loss=0.9721 acc=0.8933
+[2022-04-11 00:06:17,760][train.py][line:160][INFO] epoch 88, train 65/100, loss=0.4860 acc=0.9333
+[2022-04-11 00:06:20,224][train.py][line:160][INFO] epoch 88, train 98/100, loss=0.1771 acc=0.9733
+[2022-04-11 00:06:24,545][train.py][line:217][INFO] epoch 88, val, loss=2.6821 acc=0.5873
+[2022-04-11 00:06:24,545][train.py][line:221][INFO] epoch 88, val, loss=2.6821,text_loss=1.5696，vis_loss=2.3446， acc=0.5873
+[2022-04-11 00:06:24,607][train.py][line:239][INFO] ETA:20m/46m
+[2022-04-11 00:06:28,535][train.py][line:160][INFO] epoch 89, train 32/100, loss=0.4233 acc=0.9200
+[2022-04-11 00:06:30,992][train.py][line:160][INFO] epoch 89, train 65/100, loss=0.6500 acc=0.9067
+[2022-04-11 00:06:33,436][train.py][line:160][INFO] epoch 89, train 98/100, loss=0.6226 acc=0.8933
+[2022-04-11 00:06:37,814][train.py][line:217][INFO] epoch 89, val, loss=2.6325 acc=0.6072
+[2022-04-11 00:06:37,814][train.py][line:221][INFO] epoch 89, val, loss=2.6325,text_loss=1.5967，vis_loss=1.7901， acc=0.6072
+[2022-04-11 00:06:38,315][train.py][line:239][INFO] ETA:21m/46m
+[2022-04-11 00:06:42,234][train.py][line:160][INFO] epoch 90, train 32/100, loss=0.3321 acc=0.9733
+[2022-04-11 00:06:44,703][train.py][line:160][INFO] epoch 90, train 65/100, loss=0.8212 acc=0.8933
+[2022-04-11 00:06:47,140][train.py][line:160][INFO] epoch 90, train 98/100, loss=0.5530 acc=0.9333
+[2022-04-11 00:06:51,467][train.py][line:217][INFO] epoch 90, val, loss=2.7109 acc=0.5784
+[2022-04-11 00:06:51,467][train.py][line:221][INFO] epoch 90, val, loss=2.7109,text_loss=1.6339，vis_loss=1.5345， acc=0.5784
+[2022-04-11 00:06:51,527][train.py][line:239][INFO] ETA:21m/46m
+[2022-04-11 00:06:55,459][train.py][line:160][INFO] epoch 91, train 32/100, loss=0.4258 acc=0.9333
+[2022-04-11 00:06:57,937][train.py][line:160][INFO] epoch 91, train 65/100, loss=0.2376 acc=0.9867
+[2022-04-11 00:07:00,397][train.py][line:160][INFO] epoch 91, train 98/100, loss=0.1892 acc=0.9733
+[2022-04-11 00:07:04,703][train.py][line:217][INFO] epoch 91, val, loss=2.7563 acc=0.5864
+[2022-04-11 00:07:04,703][train.py][line:221][INFO] epoch 91, val, loss=2.7563,text_loss=1.0212，vis_loss=1.1328， acc=0.5864
+[2022-04-11 00:07:04,763][train.py][line:239][INFO] ETA:21m/46m
+[2022-04-11 00:07:08,644][train.py][line:160][INFO] epoch 92, train 32/100, loss=0.7447 acc=0.8133
+[2022-04-11 00:07:11,103][train.py][line:160][INFO] epoch 92, train 65/100, loss=0.4420 acc=0.9067
+[2022-04-11 00:07:13,543][train.py][line:160][INFO] epoch 92, train 98/100, loss=0.4200 acc=0.9467
+[2022-04-11 00:07:17,853][train.py][line:217][INFO] epoch 92, val, loss=2.6770 acc=0.6019
+[2022-04-11 00:07:17,854][train.py][line:221][INFO] epoch 92, val, loss=2.6770,text_loss=1.1023，vis_loss=2.1049， acc=0.6019
+[2022-04-11 00:07:17,914][train.py][line:239][INFO] ETA:21m/46m
+[2022-04-11 00:07:21,957][train.py][line:160][INFO] epoch 93, train 32/100, loss=0.3144 acc=0.9467
+[2022-04-11 00:07:24,413][train.py][line:160][INFO] epoch 93, train 65/100, loss=0.5797 acc=0.8933
+[2022-04-11 00:07:26,855][train.py][line:160][INFO] epoch 93, train 98/100, loss=0.4405 acc=0.9200
+[2022-04-11 00:07:31,143][train.py][line:217][INFO] epoch 93, val, loss=2.6438 acc=0.5937
+[2022-04-11 00:07:31,143][train.py][line:221][INFO] epoch 93, val, loss=2.6438,text_loss=1.3940，vis_loss=1.0847， acc=0.5937
+[2022-04-11 00:07:31,203][train.py][line:239][INFO] ETA:21m/46m
+[2022-04-11 00:07:34,973][train.py][line:160][INFO] epoch 94, train 32/100, loss=0.5942 acc=0.9067
+[2022-04-11 00:07:37,445][train.py][line:160][INFO] epoch 94, train 65/100, loss=0.1629 acc=0.9867
+[2022-04-11 00:07:39,886][train.py][line:160][INFO] epoch 94, train 98/100, loss=0.9618 acc=0.8000
+[2022-04-11 00:07:44,241][train.py][line:217][INFO] epoch 94, val, loss=2.7753 acc=0.5725
+[2022-04-11 00:07:44,241][train.py][line:221][INFO] epoch 94, val, loss=2.7753,text_loss=1.4014，vis_loss=1.9855， acc=0.5725
+[2022-04-11 00:07:44,302][train.py][line:239][INFO] ETA:22m/46m
+[2022-04-11 00:07:48,225][train.py][line:160][INFO] epoch 95, train 32/100, loss=0.1665 acc=0.9867
+[2022-04-11 00:07:50,681][train.py][line:160][INFO] epoch 95, train 65/100, loss=0.1505 acc=0.9867
+[2022-04-11 00:07:53,140][train.py][line:160][INFO] epoch 95, train 98/100, loss=0.2911 acc=0.9467
+[2022-04-11 00:07:57,432][train.py][line:217][INFO] epoch 95, val, loss=2.7911 acc=0.5711
+[2022-04-11 00:07:57,432][train.py][line:221][INFO] epoch 95, val, loss=2.7911,text_loss=0.9348，vis_loss=2.0823， acc=0.5711
+[2022-04-11 00:07:57,495][train.py][line:239][INFO] ETA:22m/46m
+[2022-04-11 00:08:01,459][train.py][line:160][INFO] epoch 96, train 32/100, loss=0.3473 acc=0.9467
+[2022-04-11 00:08:03,923][train.py][line:160][INFO] epoch 96, train 65/100, loss=0.2841 acc=0.9600
+[2022-04-11 00:08:06,369][train.py][line:160][INFO] epoch 96, train 98/100, loss=0.4193 acc=0.9733
+[2022-04-11 00:08:10,716][train.py][line:217][INFO] epoch 96, val, loss=2.7005 acc=0.5883
+[2022-04-11 00:08:10,716][train.py][line:221][INFO] epoch 96, val, loss=2.7005,text_loss=1.4792，vis_loss=1.4176， acc=0.5883
+[2022-04-11 00:08:10,775][train.py][line:239][INFO] ETA:22m/46m
+[2022-04-11 00:08:14,793][train.py][line:160][INFO] epoch 97, train 32/100, loss=0.3504 acc=0.9200
+[2022-04-11 00:08:17,252][train.py][line:160][INFO] epoch 97, train 65/100, loss=0.6246 acc=0.9067
+[2022-04-11 00:08:19,693][train.py][line:160][INFO] epoch 97, train 98/100, loss=0.2694 acc=0.9867
+[2022-04-11 00:08:24,058][train.py][line:217][INFO] epoch 97, val, loss=2.6119 acc=0.6000
+[2022-04-11 00:08:24,058][train.py][line:221][INFO] epoch 97, val, loss=2.6119,text_loss=1.5965，vis_loss=1.5579， acc=0.6000
+[2022-04-11 00:08:24,120][train.py][line:239][INFO] ETA:22m/46m
+[2022-04-11 00:08:28,026][train.py][line:160][INFO] epoch 98, train 32/100, loss=0.2224 acc=0.9600
+[2022-04-11 00:08:30,477][train.py][line:160][INFO] epoch 98, train 65/100, loss=0.9406 acc=0.8800
+[2022-04-11 00:08:32,920][train.py][line:160][INFO] epoch 98, train 98/100, loss=0.1134 acc=0.9867
+[2022-04-11 00:08:37,200][train.py][line:217][INFO] epoch 98, val, loss=2.7415 acc=0.5752
+[2022-04-11 00:08:37,200][train.py][line:221][INFO] epoch 98, val, loss=2.7415,text_loss=1.2913，vis_loss=0.9910， acc=0.5752
+[2022-04-11 00:08:37,259][train.py][line:239][INFO] ETA:23m/46m
+[2022-04-11 00:08:41,052][train.py][line:160][INFO] epoch 99, train 32/100, loss=0.3327 acc=0.9600
+[2022-04-11 00:08:43,515][train.py][line:160][INFO] epoch 99, train 65/100, loss=0.5657 acc=0.8800
+[2022-04-11 00:08:45,958][train.py][line:160][INFO] epoch 99, train 98/100, loss=0.2339 acc=0.9733
+[2022-04-11 00:08:50,293][train.py][line:217][INFO] epoch 99, val, loss=2.6260 acc=0.6095
+[2022-04-11 00:08:50,293][train.py][line:221][INFO] epoch 99, val, loss=2.6260,text_loss=0.9082，vis_loss=1.7504， acc=0.6095
+[2022-04-11 00:08:50,763][train.py][line:239][INFO] ETA:23m/46m
+[2022-04-11 00:08:54,657][train.py][line:160][INFO] epoch 100, train 32/100, loss=0.6199 acc=0.9333
+[2022-04-11 00:08:57,104][train.py][line:160][INFO] epoch 100, train 65/100, loss=0.1658 acc=0.9867
+[2022-04-11 00:08:59,534][train.py][line:160][INFO] epoch 100, train 98/100, loss=0.5237 acc=0.9467
+[2022-04-11 00:09:03,891][train.py][line:217][INFO] epoch 100, val, loss=2.7162 acc=0.5833
+[2022-04-11 00:09:03,891][train.py][line:221][INFO] epoch 100, val, loss=2.7162,text_loss=1.4635，vis_loss=1.7365， acc=0.5833
+[2022-04-11 00:09:03,950][train.py][line:239][INFO] ETA:23m/46m
+[2022-04-11 00:09:07,757][train.py][line:160][INFO] epoch 101, train 32/100, loss=0.1910 acc=0.9867
+[2022-04-11 00:09:10,219][train.py][line:160][INFO] epoch 101, train 65/100, loss=0.1955 acc=0.9867
+[2022-04-11 00:09:12,694][train.py][line:160][INFO] epoch 101, train 98/100, loss=0.5547 acc=0.9333
+[2022-04-11 00:09:17,061][train.py][line:217][INFO] epoch 101, val, loss=2.5082 acc=0.6049
+[2022-04-11 00:09:17,061][train.py][line:221][INFO] epoch 101, val, loss=2.5082,text_loss=1.0433，vis_loss=1.1271， acc=0.6049
+[2022-04-11 00:09:17,123][train.py][line:239][INFO] ETA:23m/46m
+[2022-04-11 00:09:21,210][train.py][line:160][INFO] epoch 102, train 32/100, loss=0.3208 acc=0.9733
+[2022-04-11 00:09:23,679][train.py][line:160][INFO] epoch 102, train 65/100, loss=0.6567 acc=0.8667
+[2022-04-11 00:09:26,138][train.py][line:160][INFO] epoch 102, train 98/100, loss=0.3708 acc=0.9600
+[2022-04-11 00:09:30,494][train.py][line:217][INFO] epoch 102, val, loss=2.5365 acc=0.6141
+[2022-04-11 00:09:30,494][train.py][line:221][INFO] epoch 102, val, loss=2.5365,text_loss=1.5266，vis_loss=1.4878， acc=0.6141
+[2022-04-11 00:09:30,903][train.py][line:239][INFO] ETA:23m/46m
+[2022-04-11 00:09:34,822][train.py][line:160][INFO] epoch 103, train 32/100, loss=0.7121 acc=0.9200
+[2022-04-11 00:09:37,276][train.py][line:160][INFO] epoch 103, train 65/100, loss=0.1271 acc=0.9867
+[2022-04-11 00:09:39,720][train.py][line:160][INFO] epoch 103, train 98/100, loss=0.2433 acc=0.9867
+[2022-04-11 00:09:44,026][train.py][line:217][INFO] epoch 103, val, loss=2.6038 acc=0.6108
+[2022-04-11 00:09:44,027][train.py][line:221][INFO] epoch 103, val, loss=2.6038,text_loss=1.8477，vis_loss=1.9104， acc=0.6108
+[2022-04-11 00:09:44,089][train.py][line:239][INFO] ETA:24m/46m
+[2022-04-11 00:09:48,080][train.py][line:160][INFO] epoch 104, train 32/100, loss=0.2148 acc=0.9733
+[2022-04-11 00:09:50,521][train.py][line:160][INFO] epoch 104, train 65/100, loss=0.6621 acc=0.8533
+[2022-04-11 00:09:52,966][train.py][line:160][INFO] epoch 104, train 98/100, loss=0.3104 acc=0.9467
+[2022-04-11 00:09:57,241][train.py][line:217][INFO] epoch 104, val, loss=2.6443 acc=0.6109
+[2022-04-11 00:09:57,241][train.py][line:221][INFO] epoch 104, val, loss=2.6443,text_loss=1.6280，vis_loss=2.6370， acc=0.6109
+[2022-04-11 00:09:57,301][train.py][line:239][INFO] ETA:24m/46m
+[2022-04-11 00:10:01,329][train.py][line:160][INFO] epoch 105, train 32/100, loss=0.1966 acc=0.9733
+[2022-04-11 00:10:03,786][train.py][line:160][INFO] epoch 105, train 65/100, loss=0.3423 acc=0.9867
+[2022-04-11 00:10:06,240][train.py][line:160][INFO] epoch 105, train 98/100, loss=0.1878 acc=0.9733
+[2022-04-11 00:10:10,475][train.py][line:217][INFO] epoch 105, val, loss=2.5856 acc=0.5971
+[2022-04-11 00:10:10,475][train.py][line:221][INFO] epoch 105, val, loss=2.5856,text_loss=1.2396，vis_loss=1.6369， acc=0.5971
+[2022-04-11 00:10:10,535][train.py][line:239][INFO] ETA:24m/46m
+[2022-04-11 00:10:14,453][train.py][line:160][INFO] epoch 106, train 32/100, loss=0.4363 acc=0.9333
+[2022-04-11 00:10:16,920][train.py][line:160][INFO] epoch 106, train 65/100, loss=0.3175 acc=0.9600
+[2022-04-11 00:10:19,358][train.py][line:160][INFO] epoch 106, train 98/100, loss=1.3729 acc=0.8933
+[2022-04-11 00:10:23,677][train.py][line:217][INFO] epoch 106, val, loss=2.4520 acc=0.6245
+[2022-04-11 00:10:23,677][train.py][line:221][INFO] epoch 106, val, loss=2.4520,text_loss=1.0446，vis_loss=0.9322， acc=0.6245
+[2022-04-11 00:10:24,177][train.py][line:239][INFO] ETA:24m/46m
+[2022-04-11 00:10:28,085][train.py][line:160][INFO] epoch 107, train 32/100, loss=0.1368 acc=0.9867
+[2022-04-11 00:10:30,553][train.py][line:160][INFO] epoch 107, train 65/100, loss=0.0972 acc=1.0000
+[2022-04-11 00:10:33,010][train.py][line:160][INFO] epoch 107, train 98/100, loss=0.6949 acc=0.9333
+[2022-04-11 00:10:37,426][train.py][line:217][INFO] epoch 107, val, loss=2.6928 acc=0.5955
+[2022-04-11 00:10:37,426][train.py][line:221][INFO] epoch 107, val, loss=2.6928,text_loss=1.1964，vis_loss=0.8614， acc=0.5955
+[2022-04-11 00:10:37,487][train.py][line:239][INFO] ETA:25m/46m
+[2022-04-11 00:10:41,516][train.py][line:160][INFO] epoch 108, train 32/100, loss=0.1957 acc=0.9733
+[2022-04-11 00:10:43,990][train.py][line:160][INFO] epoch 108, train 65/100, loss=0.3003 acc=0.9600
+[2022-04-11 00:10:46,444][train.py][line:160][INFO] epoch 108, train 98/100, loss=0.4244 acc=0.9867
+[2022-04-11 00:10:50,761][train.py][line:217][INFO] epoch 108, val, loss=2.6112 acc=0.6047
+[2022-04-11 00:10:50,761][train.py][line:221][INFO] epoch 108, val, loss=2.6112,text_loss=1.1032，vis_loss=1.0348， acc=0.6047
+[2022-04-11 00:10:50,821][train.py][line:239][INFO] ETA:25m/46m
+[2022-04-11 00:10:54,593][train.py][line:160][INFO] epoch 109, train 32/100, loss=0.3423 acc=0.9600
+[2022-04-11 00:10:57,053][train.py][line:160][INFO] epoch 109, train 65/100, loss=0.2423 acc=0.9867
+[2022-04-11 00:10:59,502][train.py][line:160][INFO] epoch 109, train 98/100, loss=0.1995 acc=0.9867
+[2022-04-11 00:11:03,816][train.py][line:217][INFO] epoch 109, val, loss=2.5818 acc=0.5993
+[2022-04-11 00:11:03,816][train.py][line:221][INFO] epoch 109, val, loss=2.5818,text_loss=1.8294，vis_loss=2.2896， acc=0.5993
+[2022-04-11 00:11:03,877][train.py][line:239][INFO] ETA:25m/46m
+[2022-04-11 00:11:07,849][train.py][line:160][INFO] epoch 110, train 32/100, loss=0.0945 acc=1.0000
+[2022-04-11 00:11:10,314][train.py][line:160][INFO] epoch 110, train 65/100, loss=0.5398 acc=0.9067
+[2022-04-11 00:11:12,765][train.py][line:160][INFO] epoch 110, train 98/100, loss=0.9451 acc=0.8133
+[2022-04-11 00:11:17,121][train.py][line:217][INFO] epoch 110, val, loss=2.6902 acc=0.5749
+[2022-04-11 00:11:17,121][train.py][line:221][INFO] epoch 110, val, loss=2.6902,text_loss=1.0875，vis_loss=1.1305， acc=0.5749
+[2022-04-11 00:11:17,180][train.py][line:239][INFO] ETA:25m/46m
+[2022-04-11 00:11:20,985][train.py][line:160][INFO] epoch 111, train 32/100, loss=0.1503 acc=0.9733
+[2022-04-11 00:11:23,452][train.py][line:160][INFO] epoch 111, train 65/100, loss=0.2411 acc=0.9600
+[2022-04-11 00:11:25,892][train.py][line:160][INFO] epoch 111, train 98/100, loss=0.5660 acc=0.8933
+[2022-04-11 00:11:30,203][train.py][line:217][INFO] epoch 111, val, loss=2.6056 acc=0.5895
+[2022-04-11 00:11:30,204][train.py][line:221][INFO] epoch 111, val, loss=2.6056,text_loss=1.2427，vis_loss=2.1625， acc=0.5895
+[2022-04-11 00:11:30,265][train.py][line:239][INFO] ETA:25m/46m
+[2022-04-11 00:11:34,314][train.py][line:160][INFO] epoch 112, train 32/100, loss=0.6360 acc=0.9067
+[2022-04-11 00:11:36,788][train.py][line:160][INFO] epoch 112, train 65/100, loss=0.5144 acc=0.9200
+[2022-04-11 00:11:39,238][train.py][line:160][INFO] epoch 112, train 98/100, loss=0.4728 acc=0.9333
+[2022-04-11 00:11:43,596][train.py][line:217][INFO] epoch 112, val, loss=2.6664 acc=0.6012
+[2022-04-11 00:11:43,596][train.py][line:221][INFO] epoch 112, val, loss=2.6664,text_loss=1.2801，vis_loss=1.3936， acc=0.6012
+[2022-04-11 00:11:43,656][train.py][line:239][INFO] ETA:26m/46m
+[2022-04-11 00:11:47,575][train.py][line:160][INFO] epoch 113, train 32/100, loss=0.9079 acc=0.8667
+[2022-04-11 00:11:50,036][train.py][line:160][INFO] epoch 113, train 65/100, loss=0.2814 acc=0.9867
+[2022-04-11 00:11:52,502][train.py][line:160][INFO] epoch 113, train 98/100, loss=0.2481 acc=0.9600
+[2022-04-11 00:11:56,795][train.py][line:217][INFO] epoch 113, val, loss=2.5328 acc=0.6200
+[2022-04-11 00:11:56,795][train.py][line:221][INFO] epoch 113, val, loss=2.5328,text_loss=1.2442，vis_loss=1.4080， acc=0.6200
+[2022-04-11 00:11:56,855][train.py][line:239][INFO] ETA:26m/46m
+[2022-04-11 00:12:00,934][train.py][line:160][INFO] epoch 114, train 32/100, loss=0.1163 acc=1.0000
+[2022-04-11 00:12:03,384][train.py][line:160][INFO] epoch 114, train 65/100, loss=0.1256 acc=1.0000
+[2022-04-11 00:12:05,829][train.py][line:160][INFO] epoch 114, train 98/100, loss=0.5764 acc=0.9067
+[2022-04-11 00:12:10,159][train.py][line:217][INFO] epoch 114, val, loss=2.5863 acc=0.6091
+[2022-04-11 00:12:10,159][train.py][line:221][INFO] epoch 114, val, loss=2.5863,text_loss=1.1497，vis_loss=0.8896， acc=0.6091
+[2022-04-11 00:12:10,229][train.py][line:239][INFO] ETA:26m/46m
+[2022-04-11 00:12:14,046][train.py][line:160][INFO] epoch 115, train 32/100, loss=0.2687 acc=0.9467
+[2022-04-11 00:12:16,519][train.py][line:160][INFO] epoch 115, train 65/100, loss=0.3296 acc=0.9200
+[2022-04-11 00:12:18,961][train.py][line:160][INFO] epoch 115, train 98/100, loss=0.4085 acc=0.9600
+[2022-04-11 00:12:23,075][train.py][line:217][INFO] epoch 115, val, loss=2.6006 acc=0.6031
+[2022-04-11 00:12:23,075][train.py][line:221][INFO] epoch 115, val, loss=2.6006,text_loss=1.1433，vis_loss=0.8119， acc=0.6031
+[2022-04-11 00:12:23,137][train.py][line:239][INFO] ETA:26m/46m
+[2022-04-11 00:12:27,173][train.py][line:160][INFO] epoch 116, train 32/100, loss=0.1972 acc=0.9733
+[2022-04-11 00:12:29,640][train.py][line:160][INFO] epoch 116, train 65/100, loss=0.2303 acc=0.9733
+[2022-04-11 00:12:32,100][train.py][line:160][INFO] epoch 116, train 98/100, loss=0.4175 acc=0.9600
+[2022-04-11 00:12:36,443][train.py][line:217][INFO] epoch 116, val, loss=2.5729 acc=0.6060
+[2022-04-11 00:12:36,443][train.py][line:221][INFO] epoch 116, val, loss=2.5729,text_loss=1.3948，vis_loss=1.1990， acc=0.6060
+[2022-04-11 00:12:36,550][train.py][line:239][INFO] ETA:27m/46m
+[2022-04-11 00:12:40,717][train.py][line:160][INFO] epoch 117, train 32/100, loss=0.2482 acc=0.9600
+[2022-04-11 00:12:43,173][train.py][line:160][INFO] epoch 117, train 65/100, loss=0.1868 acc=0.9867
+[2022-04-11 00:12:45,621][train.py][line:160][INFO] epoch 117, train 98/100, loss=0.0759 acc=1.0000
+[2022-04-11 00:12:49,856][train.py][line:217][INFO] epoch 117, val, loss=2.6712 acc=0.5953
+[2022-04-11 00:12:49,856][train.py][line:221][INFO] epoch 117, val, loss=2.6712,text_loss=1.2421，vis_loss=0.8013， acc=0.5953
+[2022-04-11 00:12:49,917][train.py][line:239][INFO] ETA:27m/46m
+[2022-04-11 00:12:53,909][train.py][line:160][INFO] epoch 118, train 32/100, loss=0.3107 acc=0.9600
+[2022-04-11 00:12:56,374][train.py][line:160][INFO] epoch 118, train 65/100, loss=0.7383 acc=0.8667
+[2022-04-11 00:12:58,817][train.py][line:160][INFO] epoch 118, train 98/100, loss=0.4939 acc=0.9200
+[2022-04-11 00:13:03,047][train.py][line:217][INFO] epoch 118, val, loss=2.6685 acc=0.5887
+[2022-04-11 00:13:03,047][train.py][line:221][INFO] epoch 118, val, loss=2.6685,text_loss=1.4717，vis_loss=1.3817， acc=0.5887
+[2022-04-11 00:13:03,109][train.py][line:239][INFO] ETA:27m/46m
+[2022-04-11 00:13:07,001][train.py][line:160][INFO] epoch 119, train 32/100, loss=0.3132 acc=0.9733
+[2022-04-11 00:13:09,478][train.py][line:160][INFO] epoch 119, train 65/100, loss=0.4980 acc=0.9200
+[2022-04-11 00:13:11,941][train.py][line:160][INFO] epoch 119, train 98/100, loss=0.1748 acc=0.9733
+[2022-04-11 00:13:16,234][train.py][line:217][INFO] epoch 119, val, loss=2.5344 acc=0.6133
+[2022-04-11 00:13:16,234][train.py][line:221][INFO] epoch 119, val, loss=2.5344,text_loss=1.2964，vis_loss=1.4655， acc=0.6133
+[2022-04-11 00:13:16,294][train.py][line:239][INFO] ETA:27m/46m
+[2022-04-11 00:13:20,157][train.py][line:160][INFO] epoch 120, train 32/100, loss=0.8409 acc=0.8667
+[2022-04-11 00:13:22,648][train.py][line:160][INFO] epoch 120, train 65/100, loss=0.1586 acc=0.9867
+[2022-04-11 00:13:25,100][train.py][line:160][INFO] epoch 120, train 98/100, loss=0.1553 acc=1.0000
+[2022-04-11 00:13:29,440][train.py][line:217][INFO] epoch 120, val, loss=2.6477 acc=0.5915
+[2022-04-11 00:13:29,440][train.py][line:221][INFO] epoch 120, val, loss=2.6477,text_loss=1.1226，vis_loss=1.4471， acc=0.5915
+[2022-04-11 00:13:29,500][train.py][line:239][INFO] ETA:27m/46m
+[2022-04-11 00:13:33,634][train.py][line:160][INFO] epoch 121, train 32/100, loss=0.5223 acc=0.9067
+[2022-04-11 00:13:36,088][train.py][line:160][INFO] epoch 121, train 65/100, loss=0.3654 acc=0.9333
+[2022-04-11 00:13:38,525][train.py][line:160][INFO] epoch 121, train 98/100, loss=0.1091 acc=1.0000
+[2022-04-11 00:13:42,814][train.py][line:217][INFO] epoch 121, val, loss=2.5883 acc=0.5944
+[2022-04-11 00:13:42,814][train.py][line:221][INFO] epoch 121, val, loss=2.5883,text_loss=1.0365，vis_loss=0.8364， acc=0.5944
+[2022-04-11 00:13:42,874][train.py][line:239][INFO] ETA:28m/46m
+[2022-04-11 00:13:47,005][train.py][line:160][INFO] epoch 122, train 32/100, loss=0.1909 acc=0.9867
+[2022-04-11 00:13:49,495][train.py][line:160][INFO] epoch 122, train 65/100, loss=0.2036 acc=0.9733
+[2022-04-11 00:13:51,967][train.py][line:160][INFO] epoch 122, train 98/100, loss=0.2786 acc=0.9733
+[2022-04-11 00:13:56,223][train.py][line:217][INFO] epoch 122, val, loss=2.4795 acc=0.6060
+[2022-04-11 00:13:56,224][train.py][line:221][INFO] epoch 122, val, loss=2.4795,text_loss=0.9368，vis_loss=1.3468， acc=0.6060
+[2022-04-11 00:13:56,285][train.py][line:239][INFO] ETA:28m/46m
+[2022-04-11 00:14:00,180][train.py][line:160][INFO] epoch 123, train 32/100, loss=0.2841 acc=0.9600
+[2022-04-11 00:14:02,656][train.py][line:160][INFO] epoch 123, train 65/100, loss=0.3082 acc=0.9733
+[2022-04-11 00:14:05,113][train.py][line:160][INFO] epoch 123, train 98/100, loss=0.2579 acc=0.9600
+[2022-04-11 00:14:09,481][train.py][line:217][INFO] epoch 123, val, loss=2.5512 acc=0.6105
+[2022-04-11 00:14:09,481][train.py][line:221][INFO] epoch 123, val, loss=2.5512,text_loss=1.8501，vis_loss=1.1575， acc=0.6105
+[2022-04-11 00:14:09,540][train.py][line:239][INFO] ETA:28m/46m
+[2022-04-11 00:14:13,515][train.py][line:160][INFO] epoch 124, train 32/100, loss=0.1341 acc=0.9867
+[2022-04-11 00:14:15,981][train.py][line:160][INFO] epoch 124, train 65/100, loss=0.3792 acc=0.9600
+[2022-04-11 00:14:18,427][train.py][line:160][INFO] epoch 124, train 98/100, loss=0.2746 acc=0.9733
+[2022-04-11 00:14:22,636][train.py][line:217][INFO] epoch 124, val, loss=2.5921 acc=0.6108
+[2022-04-11 00:14:22,636][train.py][line:221][INFO] epoch 124, val, loss=2.5921,text_loss=1.3997，vis_loss=1.4771， acc=0.6108
+[2022-04-11 00:14:22,696][train.py][line:239][INFO] ETA:28m/46m
+[2022-04-11 00:14:26,689][train.py][line:160][INFO] epoch 125, train 32/100, loss=0.4579 acc=0.9333
+[2022-04-11 00:14:29,162][train.py][line:160][INFO] epoch 125, train 65/100, loss=0.1041 acc=0.9867
+[2022-04-11 00:14:31,621][train.py][line:160][INFO] epoch 125, train 98/100, loss=0.2834 acc=0.9600
+[2022-04-11 00:14:35,899][train.py][line:217][INFO] epoch 125, val, loss=2.6665 acc=0.5931
+[2022-04-11 00:14:35,899][train.py][line:221][INFO] epoch 125, val, loss=2.6665,text_loss=0.9226，vis_loss=1.2878， acc=0.5931
+[2022-04-11 00:14:35,958][train.py][line:239][INFO] ETA:29m/46m
+[2022-04-11 00:14:39,878][train.py][line:160][INFO] epoch 126, train 32/100, loss=0.4164 acc=0.9467
+[2022-04-11 00:14:42,328][train.py][line:160][INFO] epoch 126, train 65/100, loss=0.4555 acc=0.9600
+[2022-04-11 00:14:44,771][train.py][line:160][INFO] epoch 126, train 98/100, loss=0.3059 acc=0.9600
+[2022-04-11 00:14:48,986][train.py][line:217][INFO] epoch 126, val, loss=2.5703 acc=0.6064
+[2022-04-11 00:14:48,986][train.py][line:221][INFO] epoch 126, val, loss=2.5703,text_loss=1.4776，vis_loss=1.5102， acc=0.6064
+[2022-04-11 00:14:49,047][train.py][line:239][INFO] ETA:29m/46m
+[2022-04-11 00:14:53,102][train.py][line:160][INFO] epoch 127, train 32/100, loss=0.4166 acc=0.9200
+[2022-04-11 00:14:55,595][train.py][line:160][INFO] epoch 127, train 65/100, loss=0.3540 acc=0.9600
+[2022-04-11 00:14:58,032][train.py][line:160][INFO] epoch 127, train 98/100, loss=0.5209 acc=0.9067
+[2022-04-11 00:15:02,353][train.py][line:217][INFO] epoch 127, val, loss=2.6156 acc=0.5952
+[2022-04-11 00:15:02,353][train.py][line:221][INFO] epoch 127, val, loss=2.6156,text_loss=1.4405，vis_loss=1.3587， acc=0.5952
+[2022-04-11 00:15:02,414][train.py][line:239][INFO] ETA:29m/46m
+[2022-04-11 00:15:06,480][train.py][line:160][INFO] epoch 128, train 32/100, loss=0.1856 acc=1.0000
+[2022-04-11 00:15:08,933][train.py][line:160][INFO] epoch 128, train 65/100, loss=0.3518 acc=0.9333
+[2022-04-11 00:15:11,373][train.py][line:160][INFO] epoch 128, train 98/100, loss=0.4075 acc=0.9867
+[2022-04-11 00:15:15,715][train.py][line:217][INFO] epoch 128, val, loss=2.5811 acc=0.5971
+[2022-04-11 00:15:15,716][train.py][line:221][INFO] epoch 128, val, loss=2.5811,text_loss=1.2265，vis_loss=0.9229， acc=0.5971
+[2022-04-11 00:15:15,774][train.py][line:239][INFO] ETA:29m/46m
+[2022-04-11 00:15:19,753][train.py][line:160][INFO] epoch 129, train 32/100, loss=0.2942 acc=0.9467
+[2022-04-11 00:15:22,197][train.py][line:160][INFO] epoch 129, train 65/100, loss=0.1654 acc=0.9733
+[2022-04-11 00:15:24,632][train.py][line:160][INFO] epoch 129, train 98/100, loss=0.3670 acc=0.9200
+[2022-04-11 00:15:28,943][train.py][line:217][INFO] epoch 129, val, loss=2.6515 acc=0.5848
+[2022-04-11 00:15:28,943][train.py][line:221][INFO] epoch 129, val, loss=2.6515,text_loss=1.1407，vis_loss=0.8604， acc=0.5848
+[2022-04-11 00:15:29,002][train.py][line:239][INFO] ETA:29m/46m
+[2022-04-11 00:15:32,955][train.py][line:160][INFO] epoch 130, train 32/100, loss=0.1508 acc=0.9867
+[2022-04-11 00:15:35,414][train.py][line:160][INFO] epoch 130, train 65/100, loss=0.4467 acc=0.9200
+[2022-04-11 00:15:37,866][train.py][line:160][INFO] epoch 130, train 98/100, loss=0.2168 acc=0.9600
+[2022-04-11 00:15:42,104][train.py][line:217][INFO] epoch 130, val, loss=2.4609 acc=0.6269
+[2022-04-11 00:15:42,104][train.py][line:221][INFO] epoch 130, val, loss=2.4609,text_loss=1.1712，vis_loss=1.7991， acc=0.6269
+[2022-04-11 00:15:42,470][train.py][line:239][INFO] ETA:30m/46m
+[2022-04-11 00:15:46,294][train.py][line:160][INFO] epoch 131, train 32/100, loss=0.5794 acc=0.9067
+[2022-04-11 00:15:48,755][train.py][line:160][INFO] epoch 131, train 65/100, loss=0.2472 acc=0.9600
+[2022-04-11 00:15:51,202][train.py][line:160][INFO] epoch 131, train 98/100, loss=0.1339 acc=0.9867
+[2022-04-11 00:15:55,461][train.py][line:217][INFO] epoch 131, val, loss=2.5456 acc=0.6107
+[2022-04-11 00:15:55,461][train.py][line:221][INFO] epoch 131, val, loss=2.5456,text_loss=1.2414，vis_loss=1.5189， acc=0.6107
+[2022-04-11 00:15:55,520][train.py][line:239][INFO] ETA:30m/46m
+[2022-04-11 00:15:59,541][train.py][line:160][INFO] epoch 132, train 32/100, loss=0.6293 acc=0.9333
+[2022-04-11 00:16:02,112][train.py][line:160][INFO] epoch 132, train 65/100, loss=0.3611 acc=0.9867
+[2022-04-11 00:16:04,633][train.py][line:160][INFO] epoch 132, train 98/100, loss=0.1059 acc=1.0000
+[2022-04-11 00:16:09,207][train.py][line:217][INFO] epoch 132, val, loss=2.5077 acc=0.6193
+[2022-04-11 00:16:09,207][train.py][line:221][INFO] epoch 132, val, loss=2.5077,text_loss=1.3120，vis_loss=0.7420， acc=0.6193
+[2022-04-11 00:16:09,267][train.py][line:239][INFO] ETA:30m/46m
+[2022-04-11 00:16:13,419][train.py][line:160][INFO] epoch 133, train 32/100, loss=0.3468 acc=0.9467
+[2022-04-11 00:16:16,028][train.py][line:160][INFO] epoch 133, train 65/100, loss=0.2028 acc=0.9867
+[2022-04-11 00:16:18,594][train.py][line:160][INFO] epoch 133, train 98/100, loss=0.3194 acc=0.9867
+[2022-04-11 00:16:23,182][train.py][line:217][INFO] epoch 133, val, loss=2.5007 acc=0.6204
+[2022-04-11 00:16:23,182][train.py][line:221][INFO] epoch 133, val, loss=2.5007,text_loss=1.2841，vis_loss=1.2686， acc=0.6204
+[2022-04-11 00:16:23,245][train.py][line:239][INFO] ETA:30m/46m
+[2022-04-11 00:16:27,330][train.py][line:160][INFO] epoch 134, train 32/100, loss=0.2071 acc=1.0000
+[2022-04-11 00:16:29,895][train.py][line:160][INFO] epoch 134, train 65/100, loss=0.6461 acc=0.8400
+[2022-04-11 00:16:32,413][train.py][line:160][INFO] epoch 134, train 98/100, loss=0.3308 acc=0.9467
+[2022-04-11 00:16:36,820][train.py][line:217][INFO] epoch 134, val, loss=2.6414 acc=0.6004
+[2022-04-11 00:16:36,820][train.py][line:221][INFO] epoch 134, val, loss=2.6414,text_loss=1.5728，vis_loss=1.7682， acc=0.6004
+[2022-04-11 00:16:36,880][train.py][line:239][INFO] ETA:31m/46m
+[2022-04-11 00:16:40,918][train.py][line:160][INFO] epoch 135, train 32/100, loss=0.4270 acc=0.9467
+[2022-04-11 00:16:43,481][train.py][line:160][INFO] epoch 135, train 65/100, loss=0.2325 acc=0.9467
+[2022-04-11 00:16:45,990][train.py][line:160][INFO] epoch 135, train 98/100, loss=0.0304 acc=1.0000
+[2022-04-11 00:16:50,403][train.py][line:217][INFO] epoch 135, val, loss=2.5969 acc=0.5987
+[2022-04-11 00:16:50,403][train.py][line:221][INFO] epoch 135, val, loss=2.5969,text_loss=1.1913，vis_loss=1.5006， acc=0.5987
+[2022-04-11 00:16:50,462][train.py][line:239][INFO] ETA:31m/46m
+[2022-04-11 00:16:54,287][train.py][line:160][INFO] epoch 136, train 32/100, loss=0.1901 acc=0.9867
+[2022-04-11 00:16:56,755][train.py][line:160][INFO] epoch 136, train 65/100, loss=0.8053 acc=0.8933
+[2022-04-11 00:16:59,201][train.py][line:160][INFO] epoch 136, train 98/100, loss=0.0908 acc=0.9733
+[2022-04-11 00:17:03,412][train.py][line:217][INFO] epoch 136, val, loss=2.6535 acc=0.6009
+[2022-04-11 00:17:03,412][train.py][line:221][INFO] epoch 136, val, loss=2.6535,text_loss=1.2927，vis_loss=2.2058， acc=0.6009
+[2022-04-11 00:17:03,471][train.py][line:239][INFO] ETA:31m/46m
+[2022-04-11 00:17:07,542][train.py][line:160][INFO] epoch 137, train 32/100, loss=0.2214 acc=0.9467
+[2022-04-11 00:17:09,998][train.py][line:160][INFO] epoch 137, train 65/100, loss=0.4000 acc=0.9600
+[2022-04-11 00:17:12,453][train.py][line:160][INFO] epoch 137, train 98/100, loss=0.2718 acc=0.9733
+[2022-04-11 00:17:16,832][train.py][line:217][INFO] epoch 137, val, loss=2.5299 acc=0.6079
+[2022-04-11 00:17:16,833][train.py][line:221][INFO] epoch 137, val, loss=2.5299,text_loss=1.1258，vis_loss=0.8464， acc=0.6079
+[2022-04-11 00:17:16,892][train.py][line:239][INFO] ETA:31m/46m
+[2022-04-11 00:17:20,939][train.py][line:160][INFO] epoch 138, train 32/100, loss=0.1435 acc=0.9867
+[2022-04-11 00:17:23,400][train.py][line:160][INFO] epoch 138, train 65/100, loss=0.2080 acc=0.9867
+[2022-04-11 00:17:25,846][train.py][line:160][INFO] epoch 138, train 98/100, loss=0.1815 acc=1.0000
+[2022-04-11 00:17:30,061][train.py][line:217][INFO] epoch 138, val, loss=2.4817 acc=0.6181
+[2022-04-11 00:17:30,061][train.py][line:221][INFO] epoch 138, val, loss=2.4817,text_loss=0.8148，vis_loss=0.4237， acc=0.6181
+[2022-04-11 00:17:30,122][train.py][line:239][INFO] ETA:31m/46m
+[2022-04-11 00:17:34,140][train.py][line:160][INFO] epoch 139, train 32/100, loss=0.2686 acc=0.9600
+[2022-04-11 00:17:36,609][train.py][line:160][INFO] epoch 139, train 65/100, loss=0.2037 acc=0.9600
+[2022-04-11 00:17:39,075][train.py][line:160][INFO] epoch 139, train 98/100, loss=0.1461 acc=0.9733
+[2022-04-11 00:17:43,343][train.py][line:217][INFO] epoch 139, val, loss=2.5726 acc=0.6084
+[2022-04-11 00:17:43,344][train.py][line:221][INFO] epoch 139, val, loss=2.5726,text_loss=1.3314，vis_loss=1.8257， acc=0.6084
+[2022-04-11 00:17:43,402][train.py][line:239][INFO] ETA:32m/46m
+[2022-04-11 00:17:47,255][train.py][line:160][INFO] epoch 140, train 32/100, loss=0.1520 acc=1.0000
+[2022-04-11 00:17:49,708][train.py][line:160][INFO] epoch 140, train 65/100, loss=1.2735 acc=0.8800
+[2022-04-11 00:17:52,152][train.py][line:160][INFO] epoch 140, train 98/100, loss=0.3575 acc=0.9333
+[2022-04-11 00:17:56,371][train.py][line:217][INFO] epoch 140, val, loss=2.7435 acc=0.5741
+[2022-04-11 00:17:56,372][train.py][line:221][INFO] epoch 140, val, loss=2.7435,text_loss=1.0725，vis_loss=1.8988， acc=0.5741
+[2022-04-11 00:17:56,431][train.py][line:239][INFO] ETA:32m/46m
+[2022-04-11 00:18:00,347][train.py][line:160][INFO] epoch 141, train 32/100, loss=0.7573 acc=0.8400
+[2022-04-11 00:18:02,825][train.py][line:160][INFO] epoch 141, train 65/100, loss=0.7900 acc=0.8400
+[2022-04-11 00:18:05,287][train.py][line:160][INFO] epoch 141, train 98/100, loss=0.4128 acc=0.9733
+[2022-04-11 00:18:09,566][train.py][line:217][INFO] epoch 141, val, loss=2.5325 acc=0.6144
+[2022-04-11 00:18:09,567][train.py][line:221][INFO] epoch 141, val, loss=2.5325,text_loss=0.8949，vis_loss=1.9726， acc=0.6144
+[2022-04-11 00:18:09,626][train.py][line:239][INFO] ETA:32m/46m
+[2022-04-11 00:18:13,693][train.py][line:160][INFO] epoch 142, train 32/100, loss=0.2797 acc=0.9733
+[2022-04-11 00:18:16,165][train.py][line:160][INFO] epoch 142, train 65/100, loss=0.1764 acc=1.0000
+[2022-04-11 00:18:18,719][train.py][line:160][INFO] epoch 142, train 98/100, loss=0.1855 acc=0.9733
+[2022-04-11 00:18:23,043][train.py][line:217][INFO] epoch 142, val, loss=2.5839 acc=0.6131
+[2022-04-11 00:18:23,044][train.py][line:221][INFO] epoch 142, val, loss=2.5839,text_loss=1.0563，vis_loss=1.3950， acc=0.6131
+[2022-04-11 00:18:23,104][train.py][line:239][INFO] ETA:32m/46m
+[2022-04-11 00:18:27,352][train.py][line:160][INFO] epoch 143, train 32/100, loss=0.1505 acc=0.9600
+[2022-04-11 00:18:29,970][train.py][line:160][INFO] epoch 143, train 65/100, loss=0.1123 acc=0.9867
+[2022-04-11 00:18:32,576][train.py][line:160][INFO] epoch 143, train 98/100, loss=0.3463 acc=0.9467
+[2022-04-11 00:18:37,064][train.py][line:217][INFO] epoch 143, val, loss=2.4925 acc=0.6075
+[2022-04-11 00:18:37,065][train.py][line:221][INFO] epoch 143, val, loss=2.4925,text_loss=0.9715，vis_loss=0.7704， acc=0.6075
+[2022-04-11 00:18:37,129][train.py][line:239][INFO] ETA:33m/46m
+[2022-04-11 00:18:41,199][train.py][line:160][INFO] epoch 144, train 32/100, loss=0.1896 acc=0.9867
+[2022-04-11 00:18:43,731][train.py][line:160][INFO] epoch 144, train 65/100, loss=0.1700 acc=1.0000
+[2022-04-11 00:18:46,182][train.py][line:160][INFO] epoch 144, train 98/100, loss=0.1588 acc=1.0000
+[2022-04-11 00:18:50,588][train.py][line:217][INFO] epoch 144, val, loss=2.5138 acc=0.6196
+[2022-04-11 00:18:50,588][train.py][line:221][INFO] epoch 144, val, loss=2.5138,text_loss=1.1488，vis_loss=1.4302， acc=0.6196
+[2022-04-11 00:18:50,653][train.py][line:239][INFO] ETA:33m/46m
+[2022-04-11 00:18:54,592][train.py][line:160][INFO] epoch 145, train 32/100, loss=0.2518 acc=0.9600
+[2022-04-11 00:18:57,052][train.py][line:160][INFO] epoch 145, train 65/100, loss=0.1633 acc=0.9733
+[2022-04-11 00:18:59,490][train.py][line:160][INFO] epoch 145, train 98/100, loss=0.2301 acc=0.9733
+[2022-04-11 00:19:03,695][train.py][line:217][INFO] epoch 145, val, loss=2.5904 acc=0.5995
+[2022-04-11 00:19:03,695][train.py][line:221][INFO] epoch 145, val, loss=2.5904,text_loss=1.2538，vis_loss=1.2989， acc=0.5995
+[2022-04-11 00:19:03,754][train.py][line:239][INFO] ETA:33m/46m
+[2022-04-11 00:19:07,577][train.py][line:160][INFO] epoch 146, train 32/100, loss=0.8336 acc=0.8667
+[2022-04-11 00:19:10,032][train.py][line:160][INFO] epoch 146, train 65/100, loss=0.1993 acc=0.9600
+[2022-04-11 00:19:12,480][train.py][line:160][INFO] epoch 146, train 98/100, loss=0.3983 acc=0.9200
+[2022-04-11 00:19:16,729][train.py][line:217][INFO] epoch 146, val, loss=2.4292 acc=0.6303
+[2022-04-11 00:19:16,729][train.py][line:221][INFO] epoch 146, val, loss=2.4292,text_loss=1.5827，vis_loss=1.1404， acc=0.6303
+[2022-04-11 00:19:17,176][train.py][line:239][INFO] ETA:33m/46m
+[2022-04-11 00:19:21,187][train.py][line:160][INFO] epoch 147, train 32/100, loss=0.3434 acc=0.9467
+[2022-04-11 00:19:23,648][train.py][line:160][INFO] epoch 147, train 65/100, loss=0.1679 acc=0.9867
+[2022-04-11 00:19:26,087][train.py][line:160][INFO] epoch 147, train 98/100, loss=0.2497 acc=0.9600
+[2022-04-11 00:19:30,480][train.py][line:217][INFO] epoch 147, val, loss=2.6026 acc=0.6025
+[2022-04-11 00:19:30,480][train.py][line:221][INFO] epoch 147, val, loss=2.6026,text_loss=1.1671，vis_loss=0.8037， acc=0.6025
+[2022-04-11 00:19:30,543][train.py][line:239][INFO] ETA:33m/46m
+[2022-04-11 00:19:34,585][train.py][line:160][INFO] epoch 148, train 32/100, loss=0.7195 acc=0.8667
+[2022-04-11 00:19:37,040][train.py][line:160][INFO] epoch 148, train 65/100, loss=0.1688 acc=0.9867
+[2022-04-11 00:19:39,480][train.py][line:160][INFO] epoch 148, train 98/100, loss=0.1291 acc=0.9733
+[2022-04-11 00:19:43,783][train.py][line:217][INFO] epoch 148, val, loss=2.5822 acc=0.6004
+[2022-04-11 00:19:43,783][train.py][line:221][INFO] epoch 148, val, loss=2.5822,text_loss=1.0726，vis_loss=1.6498， acc=0.6004
+[2022-04-11 00:19:43,843][train.py][line:239][INFO] ETA:34m/46m
+[2022-04-11 00:19:47,735][train.py][line:160][INFO] epoch 149, train 32/100, loss=0.4374 acc=0.9333
+[2022-04-11 00:19:50,185][train.py][line:160][INFO] epoch 149, train 65/100, loss=0.0744 acc=1.0000
+[2022-04-11 00:19:52,620][train.py][line:160][INFO] epoch 149, train 98/100, loss=0.4120 acc=0.9600
+[2022-04-11 00:19:56,910][train.py][line:217][INFO] epoch 149, val, loss=2.5198 acc=0.6173
+[2022-04-11 00:19:56,910][train.py][line:221][INFO] epoch 149, val, loss=2.5198,text_loss=1.1862，vis_loss=1.4123， acc=0.6173
+[2022-04-11 00:19:56,971][train.py][line:239][INFO] ETA:34m/46m
+[2022-04-11 00:20:01,093][train.py][line:160][INFO] epoch 150, train 32/100, loss=0.1157 acc=0.9867
+[2022-04-11 00:20:03,557][train.py][line:160][INFO] epoch 150, train 65/100, loss=0.5179 acc=0.9200
+[2022-04-11 00:20:05,990][train.py][line:160][INFO] epoch 150, train 98/100, loss=0.0892 acc=1.0000
+[2022-04-11 00:20:10,363][train.py][line:217][INFO] epoch 150, val, loss=2.6490 acc=0.5976
+[2022-04-11 00:20:10,363][train.py][line:221][INFO] epoch 150, val, loss=2.6490,text_loss=1.5960，vis_loss=1.6291， acc=0.5976
+[2022-04-11 00:20:10,424][train.py][line:239][INFO] ETA:34m/46m
+[2022-04-11 00:20:14,611][train.py][line:160][INFO] epoch 151, train 32/100, loss=0.8117 acc=0.9467
+[2022-04-11 00:20:17,134][train.py][line:160][INFO] epoch 151, train 65/100, loss=0.0614 acc=1.0000
+[2022-04-11 00:20:19,645][train.py][line:160][INFO] epoch 151, train 98/100, loss=0.1079 acc=0.9867
+[2022-04-11 00:20:24,132][train.py][line:217][INFO] epoch 151, val, loss=2.5747 acc=0.6099
+[2022-04-11 00:20:24,132][train.py][line:221][INFO] epoch 151, val, loss=2.5747,text_loss=1.2321，vis_loss=1.4338， acc=0.6099
+[2022-04-11 00:20:24,192][train.py][line:239][INFO] ETA:34m/46m
+[2022-04-11 00:20:28,212][train.py][line:160][INFO] epoch 152, train 32/100, loss=0.1650 acc=1.0000
+[2022-04-11 00:20:30,745][train.py][line:160][INFO] epoch 152, train 65/100, loss=0.1049 acc=0.9867
+[2022-04-11 00:20:33,212][train.py][line:160][INFO] epoch 152, train 98/100, loss=0.1520 acc=0.9867
+[2022-04-11 00:20:37,552][train.py][line:217][INFO] epoch 152, val, loss=2.6263 acc=0.5944
+[2022-04-11 00:20:37,552][train.py][line:221][INFO] epoch 152, val, loss=2.6263,text_loss=0.9731，vis_loss=0.9114， acc=0.5944
+[2022-04-11 00:20:37,613][train.py][line:239][INFO] ETA:35m/46m
+[2022-04-11 00:20:41,705][train.py][line:160][INFO] epoch 153, train 32/100, loss=0.4150 acc=0.9333
+[2022-04-11 00:20:44,162][train.py][line:160][INFO] epoch 153, train 65/100, loss=0.0682 acc=1.0000
+[2022-04-11 00:20:46,611][train.py][line:160][INFO] epoch 153, train 98/100, loss=0.5942 acc=0.9333
+[2022-04-11 00:20:50,886][train.py][line:217][INFO] epoch 153, val, loss=2.6951 acc=0.5939
+[2022-04-11 00:20:50,886][train.py][line:221][INFO] epoch 153, val, loss=2.6951,text_loss=1.5884，vis_loss=0.8707， acc=0.5939
+[2022-04-11 00:20:50,948][train.py][line:239][INFO] ETA:35m/46m
+[2022-04-11 00:20:55,049][train.py][line:160][INFO] epoch 154, train 32/100, loss=0.1263 acc=1.0000
+[2022-04-11 00:20:57,519][train.py][line:160][INFO] epoch 154, train 65/100, loss=0.2071 acc=0.9867
+[2022-04-11 00:20:59,983][train.py][line:160][INFO] epoch 154, train 98/100, loss=0.1036 acc=0.9867
+[2022-04-11 00:21:04,284][train.py][line:217][INFO] epoch 154, val, loss=2.6322 acc=0.6051
+[2022-04-11 00:21:04,284][train.py][line:221][INFO] epoch 154, val, loss=2.6322,text_loss=1.6228，vis_loss=1.4312， acc=0.6051
+[2022-04-11 00:21:04,343][train.py][line:239][INFO] ETA:35m/46m
+[2022-04-11 00:21:08,371][train.py][line:160][INFO] epoch 155, train 32/100, loss=0.4414 acc=0.9467
+[2022-04-11 00:21:10,835][train.py][line:160][INFO] epoch 155, train 65/100, loss=0.2448 acc=0.9600
+[2022-04-11 00:21:13,277][train.py][line:160][INFO] epoch 155, train 98/100, loss=0.1453 acc=0.9733
+[2022-04-11 00:21:17,538][train.py][line:217][INFO] epoch 155, val, loss=2.5894 acc=0.6001
+[2022-04-11 00:21:17,538][train.py][line:221][INFO] epoch 155, val, loss=2.5894,text_loss=1.6034，vis_loss=1.5009， acc=0.6001
+[2022-04-11 00:21:17,598][train.py][line:239][INFO] ETA:35m/45m
+[2022-04-11 00:21:21,521][train.py][line:160][INFO] epoch 156, train 32/100, loss=0.0376 acc=1.0000
+[2022-04-11 00:21:24,000][train.py][line:160][INFO] epoch 156, train 65/100, loss=0.3430 acc=0.9467
+[2022-04-11 00:21:26,462][train.py][line:160][INFO] epoch 156, train 98/100, loss=0.5943 acc=0.9467
+[2022-04-11 00:21:30,643][train.py][line:217][INFO] epoch 156, val, loss=2.5318 acc=0.6113
+[2022-04-11 00:21:30,643][train.py][line:221][INFO] epoch 156, val, loss=2.5318,text_loss=0.9145，vis_loss=2.5030， acc=0.6113
+[2022-04-11 00:21:30,707][train.py][line:239][INFO] ETA:35m/45m
+[2022-04-11 00:21:34,525][train.py][line:160][INFO] epoch 157, train 32/100, loss=0.4570 acc=0.9067
+[2022-04-11 00:21:36,974][train.py][line:160][INFO] epoch 157, train 65/100, loss=0.2560 acc=0.9467
+[2022-04-11 00:21:39,413][train.py][line:160][INFO] epoch 157, train 98/100, loss=0.2753 acc=0.9733
+[2022-04-11 00:21:43,623][train.py][line:217][INFO] epoch 157, val, loss=2.5430 acc=0.6161
+[2022-04-11 00:21:43,623][train.py][line:221][INFO] epoch 157, val, loss=2.5430,text_loss=0.9857，vis_loss=1.2537， acc=0.6161
+[2022-04-11 00:21:43,683][train.py][line:239][INFO] ETA:36m/45m
+[2022-04-11 00:21:47,695][train.py][line:160][INFO] epoch 158, train 32/100, loss=0.3045 acc=0.9733
+[2022-04-11 00:21:50,154][train.py][line:160][INFO] epoch 158, train 65/100, loss=0.4490 acc=0.9467
+[2022-04-11 00:21:52,594][train.py][line:160][INFO] epoch 158, train 98/100, loss=0.3638 acc=0.9733
+[2022-04-11 00:21:56,818][train.py][line:217][INFO] epoch 158, val, loss=2.5844 acc=0.5999
+[2022-04-11 00:21:56,818][train.py][line:221][INFO] epoch 158, val, loss=2.5844,text_loss=1.4978，vis_loss=1.2046， acc=0.5999
+[2022-04-11 00:21:56,877][train.py][line:239][INFO] ETA:36m/45m
+[2022-04-11 00:22:00,997][train.py][line:160][INFO] epoch 159, train 32/100, loss=0.1350 acc=0.9867
+[2022-04-11 00:22:03,469][train.py][line:160][INFO] epoch 159, train 65/100, loss=0.1580 acc=0.9733
+[2022-04-11 00:22:05,917][train.py][line:160][INFO] epoch 159, train 98/100, loss=0.5707 acc=0.8933
+[2022-04-11 00:22:10,146][train.py][line:217][INFO] epoch 159, val, loss=2.5123 acc=0.6124
+[2022-04-11 00:22:10,146][train.py][line:221][INFO] epoch 159, val, loss=2.5123,text_loss=1.2387，vis_loss=1.6500， acc=0.6124
+[2022-04-11 00:22:10,205][train.py][line:239][INFO] ETA:36m/45m
+[2022-04-11 00:22:14,060][train.py][line:160][INFO] epoch 160, train 32/100, loss=0.5095 acc=0.8800
+[2022-04-11 00:22:16,509][train.py][line:160][INFO] epoch 160, train 65/100, loss=0.1926 acc=0.9733
+[2022-04-11 00:22:18,951][train.py][line:160][INFO] epoch 160, train 98/100, loss=0.3113 acc=0.9733
+[2022-04-11 00:22:23,159][train.py][line:217][INFO] epoch 160, val, loss=2.6419 acc=0.6079
+[2022-04-11 00:22:23,159][train.py][line:221][INFO] epoch 160, val, loss=2.6419,text_loss=1.5070，vis_loss=1.3613， acc=0.6079
+[2022-04-11 00:22:23,219][train.py][line:239][INFO] ETA:36m/45m
+[2022-04-11 00:22:27,135][train.py][line:160][INFO] epoch 161, train 32/100, loss=0.2315 acc=0.9867
+[2022-04-11 00:22:29,595][train.py][line:160][INFO] epoch 161, train 65/100, loss=0.1048 acc=1.0000
+[2022-04-11 00:22:32,028][train.py][line:160][INFO] epoch 161, train 98/100, loss=0.0839 acc=1.0000
+[2022-04-11 00:22:36,241][train.py][line:217][INFO] epoch 161, val, loss=2.5808 acc=0.6005
+[2022-04-11 00:22:36,241][train.py][line:221][INFO] epoch 161, val, loss=2.5808,text_loss=1.2509，vis_loss=1.2666， acc=0.6005
+[2022-04-11 00:22:36,302][train.py][line:239][INFO] ETA:37m/45m
+[2022-04-11 00:22:40,372][train.py][line:160][INFO] epoch 162, train 32/100, loss=0.2296 acc=0.9867
+[2022-04-11 00:22:42,846][train.py][line:160][INFO] epoch 162, train 65/100, loss=0.1132 acc=0.9867
+[2022-04-11 00:22:45,291][train.py][line:160][INFO] epoch 162, train 98/100, loss=0.1614 acc=0.9867
+[2022-04-11 00:22:49,591][train.py][line:217][INFO] epoch 162, val, loss=2.5687 acc=0.6111
+[2022-04-11 00:22:49,591][train.py][line:221][INFO] epoch 162, val, loss=2.5687,text_loss=1.4466，vis_loss=1.4442， acc=0.6111
+[2022-04-11 00:22:49,650][train.py][line:239][INFO] ETA:37m/45m
+[2022-04-11 00:22:53,359][train.py][line:160][INFO] epoch 163, train 32/100, loss=0.4055 acc=0.9600
+[2022-04-11 00:22:55,830][train.py][line:160][INFO] epoch 163, train 65/100, loss=0.2936 acc=0.9600
+[2022-04-11 00:22:58,260][train.py][line:160][INFO] epoch 163, train 98/100, loss=0.3029 acc=0.9600
+[2022-04-11 00:23:02,454][train.py][line:217][INFO] epoch 163, val, loss=2.4410 acc=0.6225
+[2022-04-11 00:23:02,455][train.py][line:221][INFO] epoch 163, val, loss=2.4410,text_loss=0.9198，vis_loss=0.8172， acc=0.6225
+[2022-04-11 00:23:02,516][train.py][line:239][INFO] ETA:37m/45m
+[2022-04-11 00:23:06,535][train.py][line:160][INFO] epoch 164, train 32/100, loss=0.1051 acc=0.9867
+[2022-04-11 00:23:08,994][train.py][line:160][INFO] epoch 164, train 65/100, loss=0.1175 acc=1.0000
+[2022-04-11 00:23:11,427][train.py][line:160][INFO] epoch 164, train 98/100, loss=0.4836 acc=0.9333
+[2022-04-11 00:23:15,669][train.py][line:217][INFO] epoch 164, val, loss=2.5982 acc=0.6041
+[2022-04-11 00:23:15,669][train.py][line:221][INFO] epoch 164, val, loss=2.5982,text_loss=1.8471，vis_loss=2.4302， acc=0.6041
+[2022-04-11 00:23:15,728][train.py][line:239][INFO] ETA:37m/45m
+[2022-04-11 00:23:19,558][train.py][line:160][INFO] epoch 165, train 32/100, loss=0.3557 acc=0.9333
+[2022-04-11 00:23:22,022][train.py][line:160][INFO] epoch 165, train 65/100, loss=0.3149 acc=0.9467
+[2022-04-11 00:23:24,456][train.py][line:160][INFO] epoch 165, train 98/100, loss=0.2402 acc=0.9600
+[2022-04-11 00:23:28,787][train.py][line:217][INFO] epoch 165, val, loss=2.5464 acc=0.6108
+[2022-04-11 00:23:28,787][train.py][line:221][INFO] epoch 165, val, loss=2.5464,text_loss=1.5270，vis_loss=2.0246， acc=0.6108
+[2022-04-11 00:23:28,848][train.py][line:239][INFO] ETA:37m/45m
+[2022-04-11 00:23:32,753][train.py][line:160][INFO] epoch 166, train 32/100, loss=0.3664 acc=0.9600
+[2022-04-11 00:23:35,212][train.py][line:160][INFO] epoch 166, train 65/100, loss=0.0777 acc=1.0000
+[2022-04-11 00:23:37,648][train.py][line:160][INFO] epoch 166, train 98/100, loss=0.1297 acc=0.9733
+[2022-04-11 00:23:41,844][train.py][line:217][INFO] epoch 166, val, loss=2.5680 acc=0.6024
+[2022-04-11 00:23:41,845][train.py][line:221][INFO] epoch 166, val, loss=2.5680,text_loss=0.9582，vis_loss=1.8225， acc=0.6024
+[2022-04-11 00:23:41,904][train.py][line:239][INFO] ETA:38m/45m
+[2022-04-11 00:23:45,910][train.py][line:160][INFO] epoch 167, train 32/100, loss=0.1548 acc=0.9867
+[2022-04-11 00:23:48,374][train.py][line:160][INFO] epoch 167, train 65/100, loss=0.2120 acc=0.9733
+[2022-04-11 00:23:50,804][train.py][line:160][INFO] epoch 167, train 98/100, loss=0.3814 acc=0.9600
+[2022-04-11 00:23:54,982][train.py][line:217][INFO] epoch 167, val, loss=2.5670 acc=0.6101
+[2022-04-11 00:23:54,982][train.py][line:221][INFO] epoch 167, val, loss=2.5670,text_loss=1.2109，vis_loss=1.4870， acc=0.6101
+[2022-04-11 00:23:55,043][train.py][line:239][INFO] ETA:38m/45m
+[2022-04-11 00:23:59,145][train.py][line:160][INFO] epoch 168, train 32/100, loss=0.2606 acc=0.9733
+[2022-04-11 00:24:01,613][train.py][line:160][INFO] epoch 168, train 65/100, loss=0.0726 acc=1.0000
+[2022-04-11 00:24:04,056][train.py][line:160][INFO] epoch 168, train 98/100, loss=0.4431 acc=0.9600
+[2022-04-11 00:24:08,331][train.py][line:217][INFO] epoch 168, val, loss=2.5409 acc=0.6101
+[2022-04-11 00:24:08,331][train.py][line:221][INFO] epoch 168, val, loss=2.5409,text_loss=0.9038，vis_loss=0.7616， acc=0.6101
+[2022-04-11 00:24:08,391][train.py][line:239][INFO] ETA:38m/45m
+[2022-04-11 00:24:12,197][train.py][line:160][INFO] epoch 169, train 32/100, loss=0.2059 acc=0.9733
+[2022-04-11 00:24:14,651][train.py][line:160][INFO] epoch 169, train 65/100, loss=0.1131 acc=0.9867
+[2022-04-11 00:24:17,094][train.py][line:160][INFO] epoch 169, train 98/100, loss=0.2945 acc=0.9733
+[2022-04-11 00:24:21,455][train.py][line:217][INFO] epoch 169, val, loss=2.5446 acc=0.6112
+[2022-04-11 00:24:21,455][train.py][line:221][INFO] epoch 169, val, loss=2.5446,text_loss=1.3637，vis_loss=1.5995， acc=0.6112
+[2022-04-11 00:24:21,515][train.py][line:239][INFO] ETA:38m/45m
+[2022-04-11 00:24:25,500][train.py][line:160][INFO] epoch 170, train 32/100, loss=0.0646 acc=1.0000
+[2022-04-11 00:24:27,957][train.py][line:160][INFO] epoch 170, train 65/100, loss=0.2658 acc=0.9333
+[2022-04-11 00:24:30,403][train.py][line:160][INFO] epoch 170, train 98/100, loss=0.4361 acc=0.9600
+[2022-04-11 00:24:34,721][train.py][line:217][INFO] epoch 170, val, loss=2.6386 acc=0.5980
+[2022-04-11 00:24:34,721][train.py][line:221][INFO] epoch 170, val, loss=2.6386,text_loss=0.9430，vis_loss=1.6836， acc=0.5980
+[2022-04-11 00:24:34,781][train.py][line:239][INFO] ETA:39m/45m
+[2022-04-11 00:24:38,650][train.py][line:160][INFO] epoch 171, train 32/100, loss=0.1314 acc=0.9867
+[2022-04-11 00:24:41,125][train.py][line:160][INFO] epoch 171, train 65/100, loss=0.1698 acc=0.9733
+[2022-04-11 00:24:43,559][train.py][line:160][INFO] epoch 171, train 98/100, loss=0.1652 acc=0.9733
+[2022-04-11 00:24:47,881][train.py][line:217][INFO] epoch 171, val, loss=2.6623 acc=0.6068
+[2022-04-11 00:24:47,881][train.py][line:221][INFO] epoch 171, val, loss=2.6623,text_loss=1.2387，vis_loss=1.0357， acc=0.6068
+[2022-04-11 00:24:47,944][train.py][line:239][INFO] ETA:39m/45m
+[2022-04-11 00:24:51,792][train.py][line:160][INFO] epoch 172, train 32/100, loss=0.0803 acc=1.0000
+[2022-04-11 00:24:54,238][train.py][line:160][INFO] epoch 172, train 65/100, loss=0.2287 acc=0.9467
+[2022-04-11 00:24:56,673][train.py][line:160][INFO] epoch 172, train 98/100, loss=0.6604 acc=0.9333
+[2022-04-11 00:25:00,891][train.py][line:217][INFO] epoch 172, val, loss=2.6351 acc=0.5969
+[2022-04-11 00:25:00,892][train.py][line:221][INFO] epoch 172, val, loss=2.6351,text_loss=0.7995，vis_loss=1.7560， acc=0.5969
+[2022-04-11 00:25:00,952][train.py][line:239][INFO] ETA:39m/45m
+[2022-04-11 00:25:04,823][train.py][line:160][INFO] epoch 173, train 32/100, loss=0.1947 acc=0.9733
+[2022-04-11 00:25:07,276][train.py][line:160][INFO] epoch 173, train 65/100, loss=0.3130 acc=0.9733
+[2022-04-11 00:25:09,717][train.py][line:160][INFO] epoch 173, train 98/100, loss=0.4743 acc=0.9467
+[2022-04-11 00:25:13,929][train.py][line:217][INFO] epoch 173, val, loss=2.4996 acc=0.6223
+[2022-04-11 00:25:13,929][train.py][line:221][INFO] epoch 173, val, loss=2.4996,text_loss=1.9392，vis_loss=1.7905， acc=0.6223
+[2022-04-11 00:25:13,991][train.py][line:239][INFO] ETA:39m/45m
+[2022-04-11 00:25:17,933][train.py][line:160][INFO] epoch 174, train 32/100, loss=0.1529 acc=0.9867
+[2022-04-11 00:25:20,400][train.py][line:160][INFO] epoch 174, train 65/100, loss=0.0869 acc=1.0000
+[2022-04-11 00:25:22,840][train.py][line:160][INFO] epoch 174, train 98/100, loss=0.2499 acc=0.9733
+[2022-04-11 00:25:27,101][train.py][line:217][INFO] epoch 174, val, loss=2.5509 acc=0.6168
+[2022-04-11 00:25:27,101][train.py][line:221][INFO] epoch 174, val, loss=2.5509,text_loss=1.2069，vis_loss=1.3016， acc=0.6168
+[2022-04-11 00:25:27,171][train.py][line:239][INFO] ETA:39m/45m
+[2022-04-11 00:25:30,999][train.py][line:160][INFO] epoch 175, train 32/100, loss=0.0555 acc=1.0000
+[2022-04-11 00:25:33,477][train.py][line:160][INFO] epoch 175, train 65/100, loss=0.1324 acc=0.9867
+[2022-04-11 00:25:35,916][train.py][line:160][INFO] epoch 175, train 98/100, loss=0.6179 acc=0.8933
+[2022-04-11 00:25:40,202][train.py][line:217][INFO] epoch 175, val, loss=2.5055 acc=0.6144
+[2022-04-11 00:25:40,202][train.py][line:221][INFO] epoch 175, val, loss=2.5055,text_loss=0.8890，vis_loss=1.4214， acc=0.6144
+[2022-04-11 00:25:40,262][train.py][line:239][INFO] ETA:40m/45m
+[2022-04-11 00:25:44,183][train.py][line:160][INFO] epoch 176, train 32/100, loss=0.1301 acc=1.0000
+[2022-04-11 00:25:46,632][train.py][line:160][INFO] epoch 176, train 65/100, loss=0.4850 acc=0.9333
+[2022-04-11 00:25:49,065][train.py][line:160][INFO] epoch 176, train 98/100, loss=0.2245 acc=0.9867
+[2022-04-11 00:25:53,292][train.py][line:217][INFO] epoch 176, val, loss=2.5171 acc=0.6160
+[2022-04-11 00:25:53,292][train.py][line:221][INFO] epoch 176, val, loss=2.5171,text_loss=1.4542，vis_loss=1.6131， acc=0.6160
+[2022-04-11 00:25:53,352][train.py][line:239][INFO] ETA:40m/45m
+[2022-04-11 00:25:57,318][train.py][line:160][INFO] epoch 177, train 32/100, loss=0.1988 acc=0.9867
+[2022-04-11 00:25:59,786][train.py][line:160][INFO] epoch 177, train 65/100, loss=0.2019 acc=0.9467
+[2022-04-11 00:26:02,231][train.py][line:160][INFO] epoch 177, train 98/100, loss=0.3729 acc=0.9733
+[2022-04-11 00:26:06,435][train.py][line:217][INFO] epoch 177, val, loss=2.5003 acc=0.6145
+[2022-04-11 00:26:06,435][train.py][line:221][INFO] epoch 177, val, loss=2.5003,text_loss=1.0250，vis_loss=1.0927， acc=0.6145
+[2022-04-11 00:26:06,498][train.py][line:239][INFO] ETA:40m/45m
+[2022-04-11 00:26:10,643][train.py][line:160][INFO] epoch 178, train 32/100, loss=0.0484 acc=1.0000
+[2022-04-11 00:26:13,096][train.py][line:160][INFO] epoch 178, train 65/100, loss=0.1506 acc=0.9867
+[2022-04-11 00:26:15,539][train.py][line:160][INFO] epoch 178, train 98/100, loss=0.2040 acc=0.9733
+[2022-04-11 00:26:19,788][train.py][line:217][INFO] epoch 178, val, loss=2.6253 acc=0.5960
+[2022-04-11 00:26:19,788][train.py][line:221][INFO] epoch 178, val, loss=2.6253,text_loss=1.5122，vis_loss=2.1509， acc=0.5960
+[2022-04-11 00:26:19,849][train.py][line:239][INFO] ETA:40m/45m
+[2022-04-11 00:26:23,696][train.py][line:160][INFO] epoch 179, train 32/100, loss=0.4227 acc=0.9733
+[2022-04-11 00:26:26,149][train.py][line:160][INFO] epoch 179, train 65/100, loss=0.1102 acc=1.0000
+[2022-04-11 00:26:28,597][train.py][line:160][INFO] epoch 179, train 98/100, loss=0.1390 acc=0.9867
+[2022-04-11 00:26:32,808][train.py][line:217][INFO] epoch 179, val, loss=2.5379 acc=0.6201
+[2022-04-11 00:26:32,808][train.py][line:221][INFO] epoch 179, val, loss=2.5379,text_loss=1.1219，vis_loss=1.4385， acc=0.6201
+[2022-04-11 00:26:32,874][train.py][line:239][INFO] ETA:40m/45m
+[2022-04-11 00:26:36,954][train.py][line:160][INFO] epoch 180, train 32/100, loss=0.0164 acc=1.0000
+[2022-04-11 00:26:39,411][train.py][line:160][INFO] epoch 180, train 65/100, loss=0.1373 acc=0.9867
+[2022-04-11 00:26:41,846][train.py][line:160][INFO] epoch 180, train 98/100, loss=0.1105 acc=0.9867
+[2022-04-11 00:26:46,015][train.py][line:217][INFO] epoch 180, val, loss=2.5526 acc=0.6081
+[2022-04-11 00:26:46,015][train.py][line:221][INFO] epoch 180, val, loss=2.5526,text_loss=0.8929，vis_loss=1.0114， acc=0.6081
+[2022-04-11 00:26:46,075][train.py][line:239][INFO] ETA:41m/45m
+[2022-04-11 00:26:49,911][train.py][line:160][INFO] epoch 181, train 32/100, loss=0.2663 acc=0.9733
+[2022-04-11 00:26:52,379][train.py][line:160][INFO] epoch 181, train 65/100, loss=0.2241 acc=0.9600
+[2022-04-11 00:26:54,813][train.py][line:160][INFO] epoch 181, train 98/100, loss=0.1573 acc=0.9733
+[2022-04-11 00:26:59,082][train.py][line:217][INFO] epoch 181, val, loss=2.5782 acc=0.6204
+[2022-04-11 00:26:59,082][train.py][line:221][INFO] epoch 181, val, loss=2.5782,text_loss=1.4207，vis_loss=1.4840， acc=0.6204
+[2022-04-11 00:26:59,142][train.py][line:239][INFO] ETA:41m/45m
+[2022-04-11 00:27:03,173][train.py][line:160][INFO] epoch 182, train 32/100, loss=0.4279 acc=0.9600
+[2022-04-11 00:27:05,633][train.py][line:160][INFO] epoch 182, train 65/100, loss=0.7180 acc=0.8133
+[2022-04-11 00:27:08,074][train.py][line:160][INFO] epoch 182, train 98/100, loss=0.1512 acc=0.9867
+[2022-04-11 00:27:12,413][train.py][line:217][INFO] epoch 182, val, loss=2.5317 acc=0.6069
+[2022-04-11 00:27:12,414][train.py][line:221][INFO] epoch 182, val, loss=2.5317,text_loss=1.1780，vis_loss=1.0480， acc=0.6069
+[2022-04-11 00:27:12,472][train.py][line:239][INFO] ETA:41m/45m
+[2022-04-11 00:27:16,430][train.py][line:160][INFO] epoch 183, train 32/100, loss=1.1191 acc=0.8267
+[2022-04-11 00:27:18,903][train.py][line:160][INFO] epoch 183, train 65/100, loss=0.1428 acc=0.9867
+[2022-04-11 00:27:21,344][train.py][line:160][INFO] epoch 183, train 98/100, loss=0.2119 acc=0.9867
+[2022-04-11 00:27:25,534][train.py][line:217][INFO] epoch 183, val, loss=2.4084 acc=0.6376
+[2022-04-11 00:27:25,534][train.py][line:221][INFO] epoch 183, val, loss=2.4084,text_loss=0.9939，vis_loss=0.7298， acc=0.6376
+[2022-04-11 00:27:26,048][train.py][line:239][INFO] ETA:41m/45m
+[2022-04-11 00:27:30,060][train.py][line:160][INFO] epoch 184, train 32/100, loss=0.8829 acc=0.8533
+[2022-04-11 00:27:32,511][train.py][line:160][INFO] epoch 184, train 65/100, loss=0.2491 acc=0.9733
+[2022-04-11 00:27:34,942][train.py][line:160][INFO] epoch 184, train 98/100, loss=0.5988 acc=0.9200
+[2022-04-11 00:27:39,133][train.py][line:217][INFO] epoch 184, val, loss=2.5453 acc=0.6204
+[2022-04-11 00:27:39,134][train.py][line:221][INFO] epoch 184, val, loss=2.5453,text_loss=1.1835，vis_loss=1.1534， acc=0.6204
+[2022-04-11 00:27:39,194][train.py][line:239][INFO] ETA:42m/45m
+[2022-04-11 00:27:43,074][train.py][line:160][INFO] epoch 185, train 32/100, loss=0.0728 acc=1.0000
+[2022-04-11 00:27:45,542][train.py][line:160][INFO] epoch 185, train 65/100, loss=0.1790 acc=0.9733
+[2022-04-11 00:27:47,975][train.py][line:160][INFO] epoch 185, train 98/100, loss=0.1892 acc=0.9733
+[2022-04-11 00:27:52,255][train.py][line:217][INFO] epoch 185, val, loss=2.4627 acc=0.6253
+[2022-04-11 00:27:52,255][train.py][line:221][INFO] epoch 185, val, loss=2.4627,text_loss=0.9100，vis_loss=2.3201， acc=0.6253
+[2022-04-11 00:27:52,315][train.py][line:239][INFO] ETA:42m/45m
+[2022-04-11 00:27:56,477][train.py][line:160][INFO] epoch 186, train 32/100, loss=0.1254 acc=1.0000
+[2022-04-11 00:27:58,920][train.py][line:160][INFO] epoch 186, train 65/100, loss=0.1560 acc=0.9733
+[2022-04-11 00:28:01,361][train.py][line:160][INFO] epoch 186, train 98/100, loss=0.0790 acc=1.0000
+[2022-04-11 00:28:05,600][train.py][line:217][INFO] epoch 186, val, loss=2.5326 acc=0.6153
+[2022-04-11 00:28:05,600][train.py][line:221][INFO] epoch 186, val, loss=2.5326,text_loss=0.9571，vis_loss=1.0139， acc=0.6153
+[2022-04-11 00:28:05,660][train.py][line:239][INFO] ETA:42m/45m
+[2022-04-11 00:28:09,519][train.py][line:160][INFO] epoch 187, train 32/100, loss=0.0572 acc=1.0000
+[2022-04-11 00:28:11,974][train.py][line:160][INFO] epoch 187, train 65/100, loss=0.8967 acc=0.9200
+[2022-04-11 00:28:14,407][train.py][line:160][INFO] epoch 187, train 98/100, loss=0.1221 acc=0.9867
+[2022-04-11 00:28:18,762][train.py][line:217][INFO] epoch 187, val, loss=2.4722 acc=0.6285
+[2022-04-11 00:28:18,762][train.py][line:221][INFO] epoch 187, val, loss=2.4722,text_loss=0.8910，vis_loss=1.0261， acc=0.6285
+[2022-04-11 00:28:18,823][train.py][line:239][INFO] ETA:42m/45m
+[2022-04-11 00:28:22,770][train.py][line:160][INFO] epoch 188, train 32/100, loss=0.3835 acc=0.9600
+[2022-04-11 00:28:25,245][train.py][line:160][INFO] epoch 188, train 65/100, loss=0.6698 acc=0.8533
+[2022-04-11 00:28:27,709][train.py][line:160][INFO] epoch 188, train 98/100, loss=0.0890 acc=0.9867
+[2022-04-11 00:28:32,076][train.py][line:217][INFO] epoch 188, val, loss=2.6030 acc=0.6101
+[2022-04-11 00:28:32,076][train.py][line:221][INFO] epoch 188, val, loss=2.6030,text_loss=1.1159，vis_loss=1.5880， acc=0.6101
+[2022-04-11 00:28:32,137][train.py][line:239][INFO] ETA:42m/45m
+[2022-04-11 00:28:36,017][train.py][line:160][INFO] epoch 189, train 32/100, loss=0.1741 acc=0.9867
+[2022-04-11 00:28:38,473][train.py][line:160][INFO] epoch 189, train 65/100, loss=0.2346 acc=0.9733
+[2022-04-11 00:28:40,906][train.py][line:160][INFO] epoch 189, train 98/100, loss=0.1741 acc=0.9867
+[2022-04-11 00:28:45,243][train.py][line:217][INFO] epoch 189, val, loss=2.4528 acc=0.6180
+[2022-04-11 00:28:45,243][train.py][line:221][INFO] epoch 189, val, loss=2.4528,text_loss=0.8886，vis_loss=2.0145， acc=0.6180
+[2022-04-11 00:28:45,302][train.py][line:239][INFO] ETA:43m/45m
+[2022-04-11 00:28:49,440][train.py][line:160][INFO] epoch 190, train 32/100, loss=0.0760 acc=1.0000
+[2022-04-11 00:28:51,894][train.py][line:160][INFO] epoch 190, train 65/100, loss=0.0724 acc=0.9867
+[2022-04-11 00:28:54,338][train.py][line:160][INFO] epoch 190, train 98/100, loss=0.0853 acc=1.0000
+[2022-04-11 00:28:58,563][train.py][line:217][INFO] epoch 190, val, loss=2.6143 acc=0.5977
+[2022-04-11 00:28:58,563][train.py][line:221][INFO] epoch 190, val, loss=2.6143,text_loss=1.4225，vis_loss=1.4825， acc=0.5977
+[2022-04-11 00:28:58,625][train.py][line:239][INFO] ETA:43m/45m
+[2022-04-11 00:29:02,670][train.py][line:160][INFO] epoch 191, train 32/100, loss=0.2112 acc=0.9867
+[2022-04-11 00:29:05,125][train.py][line:160][INFO] epoch 191, train 65/100, loss=0.0937 acc=0.9867
+[2022-04-11 00:29:07,568][train.py][line:160][INFO] epoch 191, train 98/100, loss=0.7010 acc=0.8667
+[2022-04-11 00:29:11,821][train.py][line:217][INFO] epoch 191, val, loss=2.5055 acc=0.6157
+[2022-04-11 00:29:11,821][train.py][line:221][INFO] epoch 191, val, loss=2.5055,text_loss=1.1277，vis_loss=2.2752， acc=0.6157
+[2022-04-11 00:29:11,881][train.py][line:239][INFO] ETA:43m/45m
+[2022-04-11 00:29:15,749][train.py][line:160][INFO] epoch 192, train 32/100, loss=0.1530 acc=0.9733
+[2022-04-11 00:29:18,211][train.py][line:160][INFO] epoch 192, train 65/100, loss=0.3162 acc=0.9333
+[2022-04-11 00:29:20,647][train.py][line:160][INFO] epoch 192, train 98/100, loss=0.1334 acc=0.9867
+[2022-04-11 00:29:24,877][train.py][line:217][INFO] epoch 192, val, loss=2.5269 acc=0.6163
+[2022-04-11 00:29:24,877][train.py][line:221][INFO] epoch 192, val, loss=2.5269,text_loss=1.2258，vis_loss=1.5048， acc=0.6163
+[2022-04-11 00:29:24,939][train.py][line:239][INFO] ETA:43m/45m
+[2022-04-11 00:29:28,822][train.py][line:160][INFO] epoch 193, train 32/100, loss=0.1153 acc=0.9867
+[2022-04-11 00:29:31,268][train.py][line:160][INFO] epoch 193, train 65/100, loss=0.2138 acc=0.9867
+[2022-04-11 00:29:33,717][train.py][line:160][INFO] epoch 193, train 98/100, loss=0.4021 acc=0.9467
+[2022-04-11 00:29:37,954][train.py][line:217][INFO] epoch 193, val, loss=2.5571 acc=0.6119
+[2022-04-11 00:29:37,955][train.py][line:221][INFO] epoch 193, val, loss=2.5571,text_loss=1.0236，vis_loss=0.8771， acc=0.6119
+[2022-04-11 00:29:38,013][train.py][line:239][INFO] ETA:44m/45m
+[2022-04-11 00:29:42,009][train.py][line:160][INFO] epoch 194, train 32/100, loss=0.1141 acc=1.0000
+[2022-04-11 00:29:44,469][train.py][line:160][INFO] epoch 194, train 65/100, loss=0.4761 acc=0.9200
+[2022-04-11 00:29:46,911][train.py][line:160][INFO] epoch 194, train 98/100, loss=0.2092 acc=0.9867
+[2022-04-11 00:29:51,187][train.py][line:217][INFO] epoch 194, val, loss=2.4301 acc=0.6292
+[2022-04-11 00:29:51,188][train.py][line:221][INFO] epoch 194, val, loss=2.4301,text_loss=0.7741，vis_loss=1.0676， acc=0.6292
+[2022-04-11 00:29:51,248][train.py][line:239][INFO] ETA:44m/45m
+[2022-04-11 00:29:55,181][train.py][line:160][INFO] epoch 195, train 32/100, loss=0.0861 acc=1.0000
+[2022-04-11 00:29:57,632][train.py][line:160][INFO] epoch 195, train 65/100, loss=0.4264 acc=0.9467
+[2022-04-11 00:30:00,078][train.py][line:160][INFO] epoch 195, train 98/100, loss=0.4633 acc=0.9333
+[2022-04-11 00:30:04,331][train.py][line:217][INFO] epoch 195, val, loss=2.5352 acc=0.6185
+[2022-04-11 00:30:04,331][train.py][line:221][INFO] epoch 195, val, loss=2.5352,text_loss=1.0677，vis_loss=1.3814， acc=0.6185
+[2022-04-11 00:30:04,390][train.py][line:239][INFO] ETA:44m/45m
+[2022-04-11 00:30:08,344][train.py][line:160][INFO] epoch 196, train 32/100, loss=0.3804 acc=0.9467
+[2022-04-11 00:30:10,814][train.py][line:160][INFO] epoch 196, train 65/100, loss=0.0716 acc=1.0000
+[2022-04-11 00:30:13,241][train.py][line:160][INFO] epoch 196, train 98/100, loss=0.1184 acc=1.0000
+[2022-04-11 00:30:17,560][train.py][line:217][INFO] epoch 196, val, loss=2.6400 acc=0.5931
+[2022-04-11 00:30:17,560][train.py][line:221][INFO] epoch 196, val, loss=2.6400,text_loss=0.8804，vis_loss=2.1442， acc=0.5931
+[2022-04-11 00:30:17,619][train.py][line:239][INFO] ETA:44m/45m
+[2022-04-11 00:30:21,632][train.py][line:160][INFO] epoch 197, train 32/100, loss=0.6968 acc=0.9067
+[2022-04-11 00:30:24,095][train.py][line:160][INFO] epoch 197, train 65/100, loss=0.1416 acc=0.9867
+[2022-04-11 00:30:26,530][train.py][line:160][INFO] epoch 197, train 98/100, loss=0.1497 acc=0.9867
+[2022-04-11 00:30:30,745][train.py][line:217][INFO] epoch 197, val, loss=2.3541 acc=0.6384
+[2022-04-11 00:30:30,745][train.py][line:221][INFO] epoch 197, val, loss=2.3541,text_loss=1.2077，vis_loss=1.2493， acc=0.6384
+[2022-04-11 00:30:31,240][train.py][line:239][INFO] ETA:44m/45m
+[2022-04-11 00:30:35,239][train.py][line:160][INFO] epoch 198, train 32/100, loss=0.2408 acc=0.9600
+[2022-04-11 00:30:37,680][train.py][line:160][INFO] epoch 198, train 65/100, loss=0.0532 acc=1.0000
+[2022-04-11 00:30:40,117][train.py][line:160][INFO] epoch 198, train 98/100, loss=0.3454 acc=0.9600
+[2022-04-11 00:30:44,288][train.py][line:217][INFO] epoch 198, val, loss=2.5486 acc=0.5997
+[2022-04-11 00:30:44,289][train.py][line:221][INFO] epoch 198, val, loss=2.5486,text_loss=1.8521，vis_loss=1.2219， acc=0.5997
+[2022-04-11 00:30:44,351][train.py][line:239][INFO] ETA:45m/45m
+[2022-04-11 00:30:48,353][train.py][line:160][INFO] epoch 199, train 32/100, loss=0.1858 acc=0.9733
+[2022-04-11 00:30:50,823][train.py][line:160][INFO] epoch 199, train 65/100, loss=0.1800 acc=0.9867
+[2022-04-11 00:30:53,266][train.py][line:160][INFO] epoch 199, train 98/100, loss=0.1236 acc=0.9867
+[2022-04-11 00:30:57,474][train.py][line:217][INFO] epoch 199, val, loss=2.5653 acc=0.6124
+[2022-04-11 00:30:57,474][train.py][line:221][INFO] epoch 199, val, loss=2.5653,text_loss=1.7363，vis_loss=2.1768， acc=0.6124
+[2022-04-11 00:30:57,536][train.py][line:239][INFO] ETA:45m/45m
+[2022-04-11 00:31:01,502][train.py][line:160][INFO] epoch 200, train 32/100, loss=0.1336 acc=1.0000
+[2022-04-11 00:31:03,953][train.py][line:160][INFO] epoch 200, train 65/100, loss=0.0922 acc=1.0000
+[2022-04-11 00:31:06,392][train.py][line:160][INFO] epoch 200, train 98/100, loss=0.2635 acc=1.0000
+[2022-04-11 00:31:10,576][train.py][line:217][INFO] epoch 200, val, loss=2.5600 acc=0.6188
+[2022-04-11 00:31:10,576][train.py][line:221][INFO] epoch 200, val, loss=2.5600,text_loss=1.0463，vis_loss=1.1614， acc=0.6188
+[2022-04-11 00:31:10,637][train.py][line:239][INFO] ETA:45m/45m
+[2022-04-11 00:31:10,637][train.py][line:240][INFO] finish training
+[2022-04-11 00:31:10,637][train.py][line:241][INFO] best val acc:0.6384000125527385

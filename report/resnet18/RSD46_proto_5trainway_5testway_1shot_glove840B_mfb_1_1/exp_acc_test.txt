@@ -1,0 +1,1 @@
+batch_num :600,mean 59.73(std:+_0.81)
