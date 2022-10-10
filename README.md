@@ -29,9 +29,6 @@ With ResNet-18 backbone on NWPU RESISC45 and RSD46 WHU dataset.
 * pytorch 1.8
 ## 数据准备
 
-1. Download the images: https://drive.google.com/open?id=0B3Irx3uQNoBMQ1FlNXJsZUdYWEE
-
-2. Make a folder `materials/images` and put those images into it.
 
 3. 先下载数据
 4. 放到data文件夹下
