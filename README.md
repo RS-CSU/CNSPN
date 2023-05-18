@@ -1,4 +1,4 @@
-# CNSPN
+# CNSPN: A Few-Shot Remote Sensing Scene Classification Method
 
 This is code of this IEEE TGRS paper "Improving Few-Shot Remote Sensing Scene Classification with Class Name Semantics"
 
